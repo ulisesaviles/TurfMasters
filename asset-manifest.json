@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/TurfMasters/static/css/main.c82596f7.chunk.css",
+    "main.css": "/TurfMasters/static/css/main.038fd2d2.chunk.css",
     "main.js": "/TurfMasters/static/js/main.d207312a.chunk.js",
     "main.js.map": "/TurfMasters/static/js/main.d207312a.chunk.js.map",
     "runtime-main.js": "/TurfMasters/static/js/runtime-main.de975807.js",
@@ -10,14 +10,14 @@
     "static/js/3.61bf6261.chunk.js": "/TurfMasters/static/js/3.61bf6261.chunk.js",
     "static/js/3.61bf6261.chunk.js.map": "/TurfMasters/static/js/3.61bf6261.chunk.js.map",
     "index.html": "/TurfMasters/index.html",
-    "static/css/main.c82596f7.chunk.css.map": "/TurfMasters/static/css/main.c82596f7.chunk.css.map",
+    "static/css/main.038fd2d2.chunk.css.map": "/TurfMasters/static/css/main.038fd2d2.chunk.css.map",
     "static/js/2.8b4885a1.chunk.js.LICENSE.txt": "/TurfMasters/static/js/2.8b4885a1.chunk.js.LICENSE.txt",
     "static/media/logo.6ce24c58.svg": "/TurfMasters/static/media/logo.6ce24c58.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.de975807.js",
     "static/js/2.8b4885a1.chunk.js",
-    "static/css/main.c82596f7.chunk.css",
+    "static/css/main.038fd2d2.chunk.css",
     "static/js/main.d207312a.chunk.js"
   ]
 }
