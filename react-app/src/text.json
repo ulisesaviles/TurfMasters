@@ -116,7 +116,20 @@
         "title" : {
           "es" : "Pasto sintético",
           "en" : "Synthetic grass"
-        }
+        },
+        "products" : [
+          {
+            "title" : {
+              "es" : "Birdie Putt",
+              "en" : "Birdie Putt"
+            },
+            "label" : {
+              "es" : "Recomendado para Beisbol",
+              "en" : "Recomended for Baseball"
+            }
+
+          }
+        ]
       }
     ]
   }

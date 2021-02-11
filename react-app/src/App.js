@@ -208,9 +208,6 @@ const App = () => {
         </Link>
       </div>
       <Switch>
-        <Route path="/TurfMasters/:lang" exact component={Home} />
-        <Route path="/TurfMasters" exact component={Home} />
-        <Route path="/TurfMasters/" exact component={Home} />
         <Route path="/TurfMasters/products/:lang" component={Products} />
         <Route
           path="/TurfMasters/product/:productName/:lang"
@@ -223,6 +220,7 @@ const App = () => {
           component={Installation}
         />
         <Route path="/TurfMasters/projects/:lang" component={Projects} />
+        <Route path="/TurfMasters" component={Home} />
       </Switch>
     </Router>
   );
