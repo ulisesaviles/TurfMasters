@@ -66,7 +66,7 @@ const App = () => {
           <li className="pum-nav-item">
             <Link
               className="nav-item-link"
-              to={`/${lang}`}
+              to={`/TurfMasters/${lang}`}
               onClick={() => {
                 setPumClasses("pop-up-menu");
               }}
@@ -77,7 +77,7 @@ const App = () => {
           <li className="pum-nav-item">
             <Link
               className="nav-item-link"
-              to={`/products/${lang}`}
+              to={`/TurfMasters/products/${lang}`}
               onClick={() => {
                 setPumClasses("pop-up-menu");
               }}
@@ -88,7 +88,7 @@ const App = () => {
           <li className="pum-nav-item">
             <Link
               className="nav-item-link"
-              to={`/installation/${lang}`}
+              to={`/TurfMasters/installation/${lang}`}
               onClick={() => {
                 setPumClasses("pop-up-menu");
               }}
@@ -99,7 +99,7 @@ const App = () => {
           <li className="pum-nav-item">
             <Link
               className="nav-item-link"
-              to={`/projects/${lang}`}
+              to={`/TurfMasters/projects/${lang}`}
               onClick={() => {
                 setPumClasses("pop-up-menu");
               }}
@@ -110,7 +110,7 @@ const App = () => {
           <li className="pum-nav-item">
             <Link
               className="nav-item-link"
-              to={`/about/${lang}`}
+              to={`/TurfMasters/about/${lang}`}
               onClick={() => {
                 setPumClasses("pop-up-menu");
               }}
@@ -121,7 +121,7 @@ const App = () => {
           <li className="pum-nav-item">
             <Link
               className="nav-item-link"
-              to={`/contact/${lang}`}
+              to={`/TurfMasters/contact/${lang}`}
               onClick={() => {
                 setPumClasses("pop-up-menu");
               }}
@@ -142,7 +142,7 @@ const App = () => {
         </div>
         <Link
           className="nav-item-link"
-          to={`/${lang}`}
+          to={`/TurfMasters/${lang}`}
           onClick={() => {
             setPumClasses("pop-up-menu");
           }}
@@ -151,32 +151,41 @@ const App = () => {
         </Link>
         <ul className="nav-items">
           <li className="nav-item">
-            <Link className="nav-item-link" to={`/${lang}`}>
+            <Link className="nav-item-link" to={`/TurfMasters/${lang}`}>
               {data["nav-bar"].home[lang]}
             </Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-item-link" to={`/products/${lang}`}>
+            <Link
+              className="nav-item-link"
+              to={`/TurfMasters/products/${lang}`}
+            >
               {data["nav-bar"].products[lang]}
             </Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-item-link" to={`/installation/${lang}`}>
+            <Link
+              className="nav-item-link"
+              to={`/TurfMasters/installation/${lang}`}
+            >
               {data["nav-bar"].installation[lang]}
             </Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-item-link" to={`/projects/${lang}`}>
+            <Link
+              className="nav-item-link"
+              to={`/TurfMasters/projects/${lang}`}
+            >
               {data["nav-bar"].projects[lang]}
             </Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-item-link" to={`/about/${lang}`}>
+            <Link className="nav-item-link" to={`/TurfMasters/about/${lang}`}>
               {data["nav-bar"].about[lang]}
             </Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-item-link" to={`/contact/${lang}`}>
+            <Link className="nav-item-link" to={`/TurfMasters/contact/${lang}`}>
               <div className="contact">{data["nav-bar"].contact[lang]}</div>
             </Link>
           </li>
@@ -196,13 +205,17 @@ const App = () => {
         </Link>
       </div>
 
-      <Route path="/:lang" exact component={Home} />
-      <Route path="/products/:lang" component={Products} />
-      <Route path="/product/:productName/:lang" component={Product} />
-      <Route path="/about/:lang" component={About} />
-      <Route path="/contact/:lang" component={Contact} />
-      <Route path="/installation/:lang" component={Installation} />
-      <Route path="/projects/:lang" component={Projects} />
+      {/* Convertirlo en un switch para que jale */}
+      <Route path="/TurfMasters/:lang" exact component={Home} />
+      <Route path="/TurfMasters/products/:lang" component={Products} />
+      <Route
+        path="/TurfMasters/product/:productName/:lang"
+        component={Product}
+      />
+      <Route path="/TurfMasters/about/:lang" component={About} />
+      <Route path="/TurfMasters/contact/:lang" component={Contact} />
+      <Route path="/TurfMasters/installation/:lang" component={Installation} />
+      <Route path="/TurfMasters/projects/:lang" component={Projects} />
     </Router>
   );
 };
