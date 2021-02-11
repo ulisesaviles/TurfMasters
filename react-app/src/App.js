@@ -44,6 +44,9 @@ const App = () => {
         break;
       }
     }
+    if (url.substr(url.length - 11, url.length - 1) == "TurfMasters") {
+      return res + (lang == "en" ? "/es" : "/en");
+    }
     for (let i = 1; true; i++) {
       if (res.charAt(res.length - i) == "/") {
         return res.substr(0, res.length - i + 1) + (lang == "en" ? "es" : "en");
@@ -205,8 +208,8 @@ const App = () => {
         </Link>
       </div>
 
-      {/* Convertirlo en un switch para que jale */}
       <Route path="/TurfMasters/:lang" exact component={Home} />
+      <Route path="/TurfMasters" exact component={Home} />
       <Route path="/TurfMasters/products/:lang" component={Products} />
       <Route
         path="/TurfMasters/product/:productName/:lang"
