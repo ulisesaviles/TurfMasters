@@ -139,10 +139,11 @@ body {
   color: rgb(255, 255, 255);
 }
 .non-selected-lang:hover {
-  background-color: rgb(95, 189, 58);
+  color: rgb(84, 180, 45);
 }
 .selected-lang {
-  color: rgb(84, 180, 45);
+  color: rgb(255, 255, 255);
+  background-color: rgb(95, 189, 58);
 }
 .translate-toggle {
   transform: translateX(40px);
