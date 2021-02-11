@@ -1,0 +1,123 @@
+{
+  "nav-bar" :{
+    "home":{
+      "es": "INICIO",
+      "en" : "HOME"
+    },
+    "products" : {
+      "es" : "PRODUCTOS",
+      "en" : "PRODUCTS"
+    },
+    "installation" : {
+      "es" : "INSTALACIÓN",
+      "en" : "INSTALLATION"
+    },
+    "projects" : {
+      "es" : "CLIENTES",
+      "en" : "CLIENTS"
+    },
+    "about" : {
+      "es" : "¿QUIÉNES SOMOS?",
+      "en" : "ABOUT US"
+    },
+    "contact" : {
+      "es" : "¡CONTACT US!",
+      "en" : "¡CONTÁCTANOS!"
+    }
+  },
+  "footer" : {
+    "copyright" : {
+      "es" : "Copyright © 2021 Turf Masters - Todos los derechos reservados.",
+      "en" : "Copyright © 2021 Turf Masters - All rights reserved."
+    },
+    "author" : "Ulises Aviles"
+  },
+  "home" : {
+    "section2":{
+      "title" : {
+        "es" : "¿Por qué turf masters?",
+        "en" : "Why turf masters?"
+      },
+      "content" : {
+        "es" : "Turf masters es una empresa enfocada totalmente a entregar de la mejor calidad a nuestros clientes a través de la extensa gama de productos con los que contamos. ¡Contacta con nuestros asesores expertos para encontrar el producto perfecto para ti!",
+        "en" : "Turf masters is a company totally focused on delivering the best quality to our clients through the extensive range of products that we have. Contact our expert advisors to find the perfect product for you!"
+      }
+    },
+    "section3" : {
+      "title" : {
+        "es" : "Nuestros productos",
+        "en" : "Our products"
+      }, 
+      "content" : {
+        "es" : "Los productos de Turf Masters son todos líderes de calidad de la industria del césped artificial. La certificación FIFA con la que contamos en cada uno de nuestros productos acredita ese hecho, es por ello que clientes tan grandes como lo son los equipos de primera división de futbol soccer de la liga MX confían en la calidad de Turf Masters.",
+        "en" : "Turf Masters products are all quality leaders in the artificial grass industry. The FIFA certification that we have in each of our products proves this fact, which is why clients as large as the first division soccer football teams of the MX league trust in the quality of Turf Masters."
+      }
+    }, 
+    "section4" : {
+      "title" : {
+        "es" : "Proyectos realizados",
+        "en" : "Fulfilled projects"
+      },
+      "projects" : [
+        {
+          "title" : {
+            "es" : "Estadio Caliente",
+            "en" : "Caliente Stadium"
+          },
+          "content" : {
+            "es" : "Estadio Caliente es el estadio en donde debuta el equipo de primera división de futbol 'Xoloitzcuintles de Tijuana'.",
+            "en" : "Caliente Stadium is the stadium where the first division soccer team 'Xoloitzcuintles de Tijuana' makes its debut."
+          },
+          "img-url" : "./images/clients/xolos.jpg"
+        },
+        {
+          "title" : {
+            "es" : "Estadio Akron",
+            "en" : "Akron Stadium"
+          },
+          "content" : {
+            "es" : "Estadio Akron es el estadio en donde debuta el equipo de primera división de futbol 'Chivas de Guadalajara'.",
+            "en" : "Akron Stadium is the stadium where the first division soccer team 'Chivas de Guadalajara' makes its debut."
+          },
+          "img-url" : "./images/clients/chivas.jpg"
+        },
+        {
+          "title" : {
+            "es" : "Estadio Chevron",
+            "en" : "Chevron Stadium"
+          },
+          "content" : {
+            "es" : "Estadio Chevron es el estadio en donde debuta el equipo de primera división de beisbol 'Toros de Tijuana'.",
+            "en" : "Chevron Stadium is the stadium where the first division baseball team 'Toros de Tijuana' makes its debut."
+          },
+          "img-url" : "./images/clients/toros.jpg"
+        },
+        {
+          "title" : {
+            "es" : "Palacio municipal",
+            "en" : "City Hall"
+          },
+          "content" : {
+            "es" : "El palacio municipal de Tijuana, B.C., México, construído en 2009, cuenta con un jardín de 1km cuadrado con césped de Turf Masters.",
+            "en" : "The City Hall of Tijuana, B.C., Mexico, built in 2009, has a 1km square garden with Turf Masters lawns."
+          },
+          "img-url" : "./images/clients/palacio.jpg"
+        }
+      ]
+    }
+  },
+  "poducts" : {
+    "title" : {
+      "es" : "Catálogo",
+      "en" : "Catalouge"
+    },
+    "sections" : [
+      {
+        "title" : {
+          "es" : "Pasto sintético",
+          "en" : "Synthetic grass"
+        }
+      }
+    ]
+  }
+}

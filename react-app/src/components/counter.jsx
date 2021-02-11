@@ -6,6 +6,7 @@ class Counter extends Component {
   state = {
     count: 0,
     name: "Daniela",
+    
   };
 
   render() {

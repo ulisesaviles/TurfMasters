@@ -1,0 +1,159 @@
+////////////////////////////////////// App.js //////////////////////////////////////
+// import React, { Component } from "react";
+// import logo from "./logo.svg";
+// import "./App.css";
+// import Counter from "./components/counter";
+// import { Bounce } from "react-awesome-reveal";
+// import { Slide } from "react-awesome-reveal";
+// import { Route, BrowserRouter as Router } from "react-router-dom";
+
+// class App extends Component {
+//   state = {
+//     classes: "translatedText",
+//   };
+
+//   render() {
+//     return (
+//       <div className="App">
+//         <header className="App-header">
+//           <Bounce>
+//             <img src={logo} className="App-logo test" alt="logo" />
+//           </Bounce>
+//           {/* <Counter /> */}
+//           <Slide direction="right">
+//             <button
+//               className="btn"
+//               onPointerEnter={() => {
+//                 this.setState({
+//                   classes: "translatedText translate",
+//                 });
+//               }}
+//               onPointerLeave={() => {
+//                 this.setState({
+//                   classes: "translatedText",
+//                 });
+//               }}
+//             >
+//               Click me!
+//             </button>
+//             <h1 className={this.state.classes}>Hola mundo</h1>
+//           </Slide>
+//         </header>
+//       </div>
+//     );
+//   }
+// }
+
+// export default App;
+
+
+
+
+
+
+/////////////////////////////// App.css ///////////////////////////////
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.test {
+  /* animation: myAnimation infinite; */
+  /* animation-duration: 5s;
+  animation-timing-function: ease-in-out; */
+  transition-property: all;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in-out;
+}
+
+/* Transition */
+.test:hover {
+  transform: scale(1.5);
+}
+
+/* Animation */
+@keyframes myAnimation {
+  50% {
+    rotate: 180;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    left: 100px;
+  }
+  100% {
+    rotate: 360;
+    width: 100px;
+    height: 100px;
+    border-radius: 0;
+    left: 0;
+  }
+}
+
+.btn {
+  background-color: rgba(0, 0, 0, 0);
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+  font-size: 1.2em;
+  border-radius: 10px;
+  border: 4px solid rgb(255, 255, 255);
+  padding: 10px;
+  transition-property: all;
+  transition-duration: 0.1s;
+  transition-timing-function: ease-in-out;
+}
+
+.hide {
+  color: white;
+}
+
+.btn:hover {
+  transform: scale(1.2);
+}
+
+.btn:hover + .hide {
+  color: red;
+}
+
+.translatedText {
+  transition-property: all;
+  transition-duration: 1s;
+  transition-timing-function: ease-in-out;
+}
+
+.translate {
+  transform: translateX(100px);
+}
