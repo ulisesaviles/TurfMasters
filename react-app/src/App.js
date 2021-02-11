@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import "./App.css";
 // import { Bounce } from "react-awesome-reveal";
-import { Slide } from "react-awesome-reveal";
-import { Route, BrowserRouter as Router, Link } from "react-router-dom";
+// import { Slide } from "react-awesome-reveal";
+import { Route, BrowserRouter as Router, Link, Switch } from "react-router-dom";
 import Home from "./pages/Home";
 import Products from "./pages/Products";
 import About from "./pages/About";
@@ -207,18 +207,23 @@ const App = () => {
           <h1 className={enClasses}>EN</h1>
         </Link>
       </div>
-
-      <Route path="/TurfMasters/:lang" exact component={Home} />
-      <Route path="/TurfMasters" exact component={Home} />
-      <Route path="/TurfMasters/products/:lang" component={Products} />
-      <Route
-        path="/TurfMasters/product/:productName/:lang"
-        component={Product}
-      />
-      <Route path="/TurfMasters/about/:lang" component={About} />
-      <Route path="/TurfMasters/contact/:lang" component={Contact} />
-      <Route path="/TurfMasters/installation/:lang" component={Installation} />
-      <Route path="/TurfMasters/projects/:lang" component={Projects} />
+      <Switch>
+        <Route path="/TurfMasters/:lang" exact component={Home} />
+        <Route path="/TurfMasters" exact component={Home} />
+        <Route path="/TurfMasters/" exact component={Home} />
+        <Route path="/TurfMasters/products/:lang" component={Products} />
+        <Route
+          path="/TurfMasters/product/:productName/:lang"
+          component={Product}
+        />
+        <Route path="/TurfMasters/about/:lang" component={About} />
+        <Route path="/TurfMasters/contact/:lang" component={Contact} />
+        <Route
+          path="/TurfMasters/installation/:lang"
+          component={Installation}
+        />
+        <Route path="/TurfMasters/projects/:lang" component={Projects} />
+      </Switch>
     </Router>
   );
 };
