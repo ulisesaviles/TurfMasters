@@ -102,7 +102,7 @@ body {
 }
 .contact {
   border-style: solid;
-  border-width: 3;
+  border-width: 3px;
   border-color: rgb(110, 229, 62);
   display: flex;
   width: 180px;
