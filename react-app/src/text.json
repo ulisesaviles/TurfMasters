@@ -111,6 +111,26 @@
       "es" : "Catálogo",
       "en" : "Catalouge"
     },
+    "back-btn" : {
+      "es" : "Productos",
+      "en" : "Products"
+    },
+    "description" : {
+      "es" : "Descripción",
+      "en" : "Description"
+    },
+    "specifications" : {
+      "es" : "Especificaciones",
+      "en" : "Specs"
+    },
+    "details-btn" : {
+      "es" : "Detalles",
+      "en" : "Details"
+    },
+    "contact-btn" : {
+      "es" : "Contactar",
+      "en" : "Contact"
+    },
     "sections" : [
       {
         "title" : {
@@ -126,11 +146,395 @@
             "label" : {
               "es" : "Recomendado para Beisbol",
               "en" : "Recomended for Baseball"
+            },
+            "img" : "./images/products/png/Birdie Putt.png",
+            "description" : {
+              "es" : "Birdie Putt es el pasto ideal para beisbol por sus características especiales de baja fricción. Es el más comprado por equipos profesionales.",
+              "en" : "Birdie Putt is the ideal grass for baseball due to its special low friction characteristics. It is the most purchased by professional teams."
+            },
+            "specs" : {
+              "es" : ["Peso total (aprox): 80 oz.", "Altura (aprox): 0.7 in.", "Fibra: Polietileno.", "Infill: 1.5 lbs / psf.", "Ancho del rollo: 15 ft"],
+              "en" : ["Total weight (aprox): 80 oz.", "Height (aprox): 0.7 in.", "Fiber: Polyethylene.", "Infill: 1.5 lbs / psf.", "Roll width: 15 ft"]
             }
-
+          },
+          {
+            "title" : {
+              "es" : "Blend 70",
+              "en" : "Blend 70"
+            },
+            "label" : {
+              "es" : "Recomendado para Fútbol",
+              "en" : "Recomended for Soccer"
+            },
+            "img" : "./images/products/png/Blend 70.png",
+            "description" : {
+              "es" : "Blend 70 es el pasto ideal para fútbol por sus características especiales de alta fricción. Es el más comprado por equipos profesionales.",
+              "en" : "Blend 70 is the ideal grass for soccer due to its special high friction characteristics. It is the most purchased by professional teams."
+            },
+            "specs" : {
+              "es" : ["Peso total (aprox): 80 oz.", "Altura (aprox): 0.7 in.", "Fibra: Polietileno.", "Infill: 1.5 lbs / psf.", "Ancho del rollo: 15 ft"],
+              "en" : ["Total weight (aprox): 80 oz.", "Height (aprox): 0.7 in.", "Fiber: Polyethylene.", "Infill: 1.5 lbs / psf.", "Roll width: 15 ft"]
+            }
+          },
+          {
+            "title" : {
+              "es" : "Catalina",
+              "en" : "Catalina"
+            },
+            "label" : {
+              "es" : "Recomendado para parques",
+              "en" : "Recomended for parks"
+            },
+            "img" : "./images/products/png/Catalina.png",
+            "description" : {
+              "es" : "Catalina es el pasto ideal para parques infantiles por sus características especiales de soporte, lo que evita la mayoría de las lesiones potenciales.",
+              "en" : "Catalina is the ideal grass for playgrounds due to its special support characteristics, which avoids most potential injuries."
+            },
+            "specs" : {
+              "es" : ["Peso total (aprox): 80 oz.", "Altura (aprox): 0.7 in.", "Fibra: Polietileno.", "Infill: 1.5 lbs / psf.", "Ancho del rollo: 15 ft"],
+              "en" : ["Total weight (aprox): 80 oz.", "Height (aprox): 0.7 in.", "Fiber: Polyethylene.", "Infill: 1.5 lbs / psf.", "Roll width: 15 ft"]
+            }
+          },
+          {
+            "title" : {
+              "es" : "Expert 96",
+              "en" : "Expert 96"
+            },
+            "label" : {
+              "es" : "Recomendado para jardines",
+              "en" : "Recomended for gardens"
+            },
+            "img" : "./images/products/png/Expert 96.png",
+            "description" : {
+              "es" : "Expert 96 es el pasto ideal para jardines donésticos debido a que presenta un excelente balance entre comodidad y estética.",
+              "en" : "Expert 96 is the ideal grass for home gardens due to its excellent balance between comfort and aesthetics."
+            },
+            "specs" : {
+              "es" : ["Peso total (aprox): 80 oz.", "Altura (aprox): 0.7 in.", "Fibra: Polietileno.", "Infill: 1.5 lbs / psf.", "Ancho del rollo: 15 ft"],
+              "en" : ["Total weight (aprox): 80 oz.", "Height (aprox): 0.7 in.", "Fiber: Polyethylene.", "Infill: 1.5 lbs / psf.", "Roll width: 15 ft"]
+            }
+          },
+          {
+            "title" : {
+              "es" : "Eagle Putt",
+              "en" : "Eagle Putt"
+            },
+            "label" : {
+              "es" : "Recomendado para interiores",
+              "en" : "Recomended for interiors"
+            },
+            "img" : "./images/products/png/Eagle Putt.png",
+            "description" : {
+              "es" : "Fácil de limpiar e ideal para interiores por ser el más compacto de su clase, Eagle Putt es una excelente alternativa para Birdie Putt.",
+              "en" : "Easy to clean and ideal for indoor use as the most compact in its class, Eagle Putt is an excellent alternative to Birdie Putt."
+            },
+            "specs" : {
+              "es" : ["Peso total (aprox): 80 oz.", "Altura (aprox): 0.7 in.", "Fibra: Polietileno.", "Infill: 1.5 lbs / psf.", "Ancho del rollo: 15 ft"],
+              "en" : ["Total weight (aprox): 80 oz.", "Height (aprox): 0.7 in.", "Fiber: Polyethylene.", "Infill: 1.5 lbs / psf.", "Roll width: 15 ft"]
+            }
+          },
+          {
+            "title" : {
+              "es" : "Napa",
+              "en" : "Napa"
+            },
+            "label" : {
+              "es" : "Aspecto natural",
+              "en" : "Natural look"
+            },
+            "img" : "./images/products/png/Napa.png",
+            "description" : {
+              "es" : "Si lo que busca es pasto sintético con apariencia muy similar a pasto natural, entonces napa es la mejor opción.",
+              "en" : "If what you are looking for is synthetic grass with an appearance very similar to natural grass, then napa is the best option."
+            },
+            "specs" : {
+              "es" : ["Peso total (aprox): 80 oz.", "Altura (aprox): 0.7 in.", "Fibra: Polietileno.", "Infill: 1.5 lbs / psf.", "Ancho del rollo: 15 ft"],
+              "en" : ["Total weight (aprox): 80 oz.", "Height (aprox): 0.7 in.", "Fiber: Polyethylene.", "Infill: 1.5 lbs / psf.", "Roll width: 15 ft"]
+            }
+          }
+        ]
+      },
+      {
+        "title" : {
+          "es" : "Pistas de atletismo",
+          "en" : "Running tracks"
+        },
+        "products" : [
+          {
+            "title" : {
+              "es" : "Rubber 50",
+              "en" : "Rubber 50"
+            },
+            "label" : {
+              "es" : "Opción más económica",
+              "en" : "Low cost option"
+            },
+            "img" : "./images/products/png/Rubber 50.png",
+            "description" : {
+              "es" : "Rubber 50 ofrece una alternativa económica que cumple con todos los estándares de calidad, es la más comprada por escuelas.",
+              "en" : "Rubber 50 offers a low cost alternative that meets all quality standards, it is the most purchased by schools."
+            },
+            "specs" : {
+              "es" : ["Peso total (aprox): 80 oz.", "Altura (aprox): 0.7 in.", "Fibra: Polietileno.", "Infill: 1.5 lbs / psf.", "Ancho del rollo: 15 ft"],
+              "en" : ["Total weight (aprox): 80 oz.", "Height (aprox): 0.7 in.", "Fiber: Polyethylene.", "Infill: 1.5 lbs / psf.", "Roll width: 15 ft"]
+            }
+          },
+          {
+            "title" : {
+              "es" : "Rubber 70",
+              "en" : "Rubber 70"
+            },
+            "label" : {
+              "es" : "",
+              "en" : ""
+            },
+            "img" : "./images/products/png/Rubber 70.png",
+            "description" : {
+              "es" : "Rubber 70 es la gama media de materiales de pistas de atletismo. Ofrece extra soporte para evitar lesiones en los mejores atletas.",
+              "en" : "Rubber 70 is the mid-range running track materials. Offers extra support to prevent injury to top athletes."
+            },
+            "specs" : {
+              "es" : ["Peso total (aprox): 80 oz.", "Altura (aprox): 0.7 in.", "Fibra: Polietileno.", "Infill: 1.5 lbs / psf.", "Ancho del rollo: 15 ft"],
+              "en" : ["Total weight (aprox): 80 oz.", "Height (aprox): 0.7 in.", "Fiber: Polyethylene.", "Infill: 1.5 lbs / psf.", "Roll width: 15 ft"]
+            }
+          },
+          {
+            "title" : {
+              "es" : "Rubber pro",
+              "en" : "Rubber pro"
+            },
+            "label" : {
+              "es" : "Recomendado para profesionales",
+              "en" : "Recomended for professionals"
+            },
+            "img" : "./images/products/png/Rubber pro.png",
+            "description" : {
+              "es" : "Rubber pro es el estándar de pistas profesionales. Ofrece soporte adicional gracias a su diseño innovador de tres capas.",
+              "en" : "Rubber pro is the standard for professional tracks. Offers additional support thanks to its innovative three-layer design."
+            },
+            "specs" : {
+              "es" : ["Peso total (aprox): 80 oz.", "Altura (aprox): 0.7 in.", "Fibra: Polietileno.", "Infill: 1.5 lbs / psf.", "Ancho del rollo: 15 ft"],
+              "en" : ["Total weight (aprox): 80 oz.", "Height (aprox): 0.7 in.", "Fiber: Polyethylene.", "Infill: 1.5 lbs / psf.", "Roll width: 15 ft"]
+            }
+          }
+        ]
+      },
+      {
+        "title" : {
+          "es" : "Materiales",
+          "en" : "Materials"
+        },
+        "products" : [
+          {
+            "title" : {
+              "es" : "Caucho",
+              "en" : "Rubber"
+            },
+            "label" : {
+              "es" : "",
+              "en" : ""
+            },
+            "img" : "./images/products/png/caucho.png",
+            "description" : {
+              "es" : "El caucho es un material escencial para cualquier tipo de pasto artificial. Este absorbe el impacto para evitar que el pasto se desgaste.",
+              "en" : "Rubber is an essential material for any type of artificial grass. It absorbs the impact to prevent the grass from wearing out."
+            },
+            "specs" : {
+              "es" : ["Peso total (aprox): 80 oz.", "Altura (aprox): 0.7 in.", "Fibra: Polietileno.", "Infill: 1.5 lbs / psf.", "Ancho del rollo: 15 ft"],
+              "en" : ["Total weight (aprox): 80 oz.", "Height (aprox): 0.7 in.", "Fiber: Polyethylene.", "Infill: 1.5 lbs / psf.", "Roll width: 15 ft"]
+            }
+          },
+          {
+            "title" : {
+              "es" : "Arena silica",
+              "en" : "Silicone sand"
+            },
+            "label" : {
+              "es" : "",
+              "en" : ""
+            },
+            "img" : "./images/products/png/arenasilica.png",
+            "description" : {
+              "es" : "La arena sílica suele ser una excelente solución para áreas play-ground. Su diseño extra fino permite soporte adicional para evitar lesiones.",
+              "en" : "Silicone sand is usually an excellent solution for play-ground areas. Its extra fine-grinded design allows additional support to prevent injurys."
+            },
+            "specs" : {
+              "es" : ["Peso total (aprox): 80 oz.", "Altura (aprox): 0.7 in.", "Fibra: Polietileno.", "Infill: 1.5 lbs / psf.", "Ancho del rollo: 15 ft"],
+              "en" : ["Total weight (aprox): 80 oz.", "Height (aprox): 0.7 in.", "Fiber: Polyethylene.", "Infill: 1.5 lbs / psf.", "Roll width: 15 ft"]
+            }
           }
         ]
       }
     ]
+  },
+  "installation" : {
+    "title" : {
+      "es" : "Servicios de instalación",
+      "en" : "Installation services"
+    },
+    "content" : {
+      "es" : "Sabemos que no puedes resistir a probar nuestro césped en tu patio o proyecto, por lo que en la compra de cualquiera de nuestros productos, el equipo de turfmasters se hará cargo del 100% del proceso de instalación.          De esta forma, que el cliente solamente tiene que preocuparse por elegir su césped favorito y turfmasters se hará cargo del resto.",
+      "en" : "We know that you can't resist testing our grass in your yard or project, so when you buy any of our products, the turfmasters team will take care of 100% of the installation process.          In this way, the client only has to worry about choosing their favorite grass and turfmasters will take care of the rest.",
+    }
+  },
+  "projects" : {
+    "title" : {
+      "es" : "Proyectos realizados",
+      "en" : "Fulfilled projects"
+    },
+    "secciones" : [
+      {
+        "title" : {
+          "es" : "Estadios profesionales",
+          "en" : "Professional stadiums"
+        },
+        "projects" : [
+          {
+            "title" : {
+              "es" : "Estadio Caliente",
+              "en" : "Caliente Stadium"
+            },
+            "label" : {
+              "es" : "Terminado en: 2014",
+              "en" : "Finished in 2014"
+            },
+            "content" : {
+              "es" : "El Estadio Caliente es uno de los proyectos de los que la empresa está más orgulloso, pues cumplimos el objetivo del cliente de lograr una cancha de futbol con los estándares de calidad que un equipo de primera división de la liga mexicana requiere. El proyecto se terminó en un periodo cercano a los 2 meses desde la primer cotización hasta el producto terminado.",
+              "en" : "The Caliente Stadium is one of the projects that the company is most proud of, as we fulfill the client's objective of achieving a soccer field with the quality standards that a first division team in the Mexican league requires. The project was completed in a period close to 2 months from the first quotation to the finished product."
+            },
+            "img-url" : "./images/clients/xolos.jpg"
+          },
+          {
+            "title" : {
+              "es" : "Estadio Akron",
+              "en" : "Akron Stadium"
+            },
+            "label" : {
+              "es" : "Terminado en: 2016",
+              "en" : "Finished in 2016"
+            },
+            "content" : {
+              "es" : "El equipo de turfmasters se empeñó completamente en este proyecto, sobre todo por ser el equipo favorito de la empresa, pues se trata de la ciudad natal del patrón. Proyectos como este no solamente requieren esfuerzo y calidad, sino que el resultado perfecto se logra con pasión, que fue lo que nos permitió un excelente desempeño en el proyecto más  ambicioso que ha tenido la empresa.",
+              "en" : "The team of turfmasters was completely committed to this project, especially because it is the company's favorite team, since it is the hometown of the CEO. Projects like this not only require effort and quality, but the perfect result is achieved with passion, which was what allowed us to perform well in the most ambitious project the company has ever had."
+            },
+            "img-url" : "./images/clients/chivas.jpg"
+          },
+          {
+            "title" : {
+              "es" : "Estadio Chevron",
+              "en" : "Chevron Stadium"
+            },
+            "label" : {
+              "es" : "Terminado en: 2012",
+              "en" : "Finished in 2012"
+            },
+            "content" : {
+              "es" : "El estadio Chevron, hogar de los Toros de Tijuana, fue el primer gran proyecto del equipo de turfmasters, y nos complace decir que nuestro primer gran proyecto fue nuestro primer gran éxito, pues hoy en día se debutan juegos profesionales de la liga mexicana de beisbol. El proyecto cumplió con todos los estándares de calidad requeridos para que esto sucediera sin ninguna complicación.",
+              "en" : "The Chevron Stadium, home of the Tijuana Bulls, was the first great project of the turfmasters team, and we are pleased to say that our first great project was our first great success, since today professional games of the Mexican baseball league are debuting. The project met all the quality standards required for this to happen without any complications."
+            },
+            "img-url" : "./images/clients/toros.jpg"
+          }
+        ]
+      },
+      {
+        "title" : {
+          "es" : "Estadios profesionales",
+          "en" : "Professional stadiums"
+        },
+        "projects" : [
+          {
+            "title" : {
+              "es" : "Parque México, Tijuana",
+              "en" : "Tijuana's Mexico park"
+            },
+            "label" : {
+              "es" : "Terminado en: 2019",
+              "en" : "Finished in 2019"
+            },
+            "content" : {
+              "es" : "No por no ser un enorme proyecto significa que no estamos orgullosos de los resultados. El parque México en playas de Tijuana tuvo una gran renovación en 2019, en la que turfmasters tuvo la oportunidad de participar con el césped artificial en donde tantos niños, familias y mascotas están generando memorias inolvidables hoy en día.",
+              "en" : "Not because it is not a huge project does it mean that we are not proud of the results. The Mexico park in Playas de Tijuana had a great renovation in 2019, in which turfmasters had the opportunity to participate with the artificial grass where so many children, families and pets are generating unforgettable memories today."
+            },
+            "img-url" : "./images/clients/park.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  "about" : {
+    "section1" : {
+      "title" : {
+        "es" : "¿Quiénes somos?",
+        "en" : "Who we are?"
+      },
+      "content" : {
+        "es" : "Turfmasters es una compañía originaria de Tijuana, Baja California, México formada a partir de la ética laboral, el respeto, la ambición, el trabajo en equipo y los mejores estándares de calidad.",
+        "en" : "Turfmasters is a company originally from Tijuana, Baja California, Mexico formed from work ethic, respect, ambition, teamwork and the best quality standards."
+      }
+    },
+    "mission" : {
+      "title" : {
+        "es" : "Misión",
+        "en" : "Misson"
+      },
+      "content" : {
+        "es" : "Nuestra misión siempre estará enfocada a mantener nuestros altos estándares de calidad que tanto nos distinguen y cumplir en tiempo y forma con cada uno de los proyectos en los que participemos.",
+        "en" : "Our mission will always be focused on maintaining our high quality standards that distinguish us so much and comply in a timely manner with each of the projects in which we participate."
+      }
+    },
+    "bullets" : [
+      {
+        "es" : "La empresa líder del noreste de México",
+        "en" : "The leading company in Northeast Mexico"
+      },
+      {
+        "es" : "Líderes en calidad de productos y servicios",
+        "en" : "Leaders in quality of products and services"
+      },
+      {
+        "es" : "Contamos con la más amplia gama de productos",
+        "en" : "We have the widest range of products"
+      },
+      {
+        "es" : "Profesionales de pasto sintético",
+        "en" : "Synthetic grass professionals"
+      }
+    ]
+  },
+  "contact" : {
+    "info" : {
+      "title" : {
+        "es" : "¡Contáctanos!",
+        "en" : "Conctact us!"
+      },
+      "content" : {
+        "es" : "Nuestro equipo estará contento de apoyarte a cualquier hora del día, cualquier día de la semana.",
+        "en" : "Our team will be happy to help you at any time of the day, any day of the week."
+      },
+      "tel" : " + 52 1 (664) 405 34 11",
+      "mail" : "avilesulises1@gmail.com"
+    },
+    "send-mail" : {
+      "name" : {
+        "es" : "Tu nombre",
+        "en" : "Your name"
+      },
+      "email" : {
+        "es" : "Tu correo electrónico",
+        "en" : "Your e-mail"
+      },
+      "subject" : {
+        "es" : "Asunto (la razón por la que quieres contactarnos)",
+        "en" : "Subject (The reason why you want to contact us)"
+      },
+      "content" : {
+        "es" : "¡Redacta tu correo y te contactaremos lo antes posible!",
+        "en" : "Write your email and we will contact you as soon as possible!"
+      },
+      "send" : {
+        "es" : "Enviar",
+        "en" : "Send"
+      }
+    }
   }
 }
