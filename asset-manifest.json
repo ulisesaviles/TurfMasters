@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/TurfMasters/static/css/main.8b751fa6.chunk.css",
-    "main.js": "/TurfMasters/static/js/main.c8e7f060.chunk.js",
-    "main.js.map": "/TurfMasters/static/js/main.c8e7f060.chunk.js.map",
+    "main.js": "/TurfMasters/static/js/main.295c62c3.chunk.js",
+    "main.js.map": "/TurfMasters/static/js/main.295c62c3.chunk.js.map",
     "runtime-main.js": "/TurfMasters/static/js/runtime-main.74b7477e.js",
     "runtime-main.js.map": "/TurfMasters/static/js/runtime-main.74b7477e.js.map",
     "static/js/2.d3abca8b.chunk.js": "/TurfMasters/static/js/2.d3abca8b.chunk.js",
@@ -20,6 +20,6 @@
     "static/js/runtime-main.74b7477e.js",
     "static/js/2.d3abca8b.chunk.js",
     "static/css/main.8b751fa6.chunk.css",
-    "static/js/main.c8e7f060.chunk.js"
+    "static/js/main.295c62c3.chunk.js"
   ]
 }
