@@ -22,17 +22,15 @@ const Home = () => {
         </Slide>
         <img src={minififa} alt="Fifa-certified" className="mini-fifa"/>
       </div>
-      <div className="home-section2-container">
-        <img src={logo} alt="TurfMasters" className="home-section2-logo"/>
-        {/* <Slide direction="right"> */}
-          <div className="home-section2-content-container">
-            <h2 className="home-section2-title">{data.home.section2.title[lang]}</h2>
-            <p className="home-section2-content">{data.home.section2.content[lang]}</p>
+        <Slide direction="left" delay="15">
+          <div className="home-section2-container">
+            <img src={logo} alt="TurfMasters" className="home-section2-logo"/>
+              <div className="home-section2-content-container">
+                <h2 className="home-section2-title">{data.home.section2.title[lang]}</h2>
+                <p className="home-section2-content">{data.home.section2.content[lang]}</p>
+              </div>
           </div>
-        {/* </Slide> */}
-        
-        
-      </div>
+        </Slide>
     </div>
   );
 }

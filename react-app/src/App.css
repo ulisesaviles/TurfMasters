@@ -114,6 +114,21 @@ body {
   margin: auto;
 }
 
+/* ####################### Footer ####################### */
+.footer {
+  background-color: rgb(10, 10, 10);
+  width: auto;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  padding: 0 10vw;
+  justify-content: space-between;
+}
+.footer-text {
+  font-weight: 400;
+  font-size: 15px;
+}
+
 /* ####################### Toggle de idioma ####################### */
 .toggle {
   position: fixed;
@@ -250,4 +265,13 @@ body {
     font-size: 20px;
     line-height: 2.3;
   }
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(100, 100, 100);
+  border-radius: 6px;
 }

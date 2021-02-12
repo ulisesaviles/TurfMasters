@@ -10,6 +10,7 @@ import Contact from "./pages/Contact";
 import Installation from "./pages/Installation";
 import Projects from "./pages/Projects";
 import Product from "./pages/Product";
+import Footer from "./components/footer";
 import data from "./text.json";
 import logo from "./images/logo.png";
 import { MdMenu } from "@react-icons/all-files/md/MdMenu";
@@ -224,6 +225,7 @@ const App = () => {
         <Route path="/TurfMasters/projects/:lang" component={Projects} />
         <Route path="/TurfMasters" component={Home} />
       </Switch>
+      <Footer />
     </Router>
   );
 };
