@@ -2,7 +2,7 @@
 body {
   background-color: rgb(30, 30, 30);
   color: rgb(255, 255, 255);
-  padding-top: 100px;
+  padding-top: 90px;
 }
 /* ####################### NavBar ####################### */
 .nav-logo {
@@ -20,6 +20,7 @@ body {
   position: fixed;
   width: 100vw;
   top: 0;
+  z-index: 100;
 }
 @media only screen and (max-width: 1373px) {
   .nav-items {
@@ -65,6 +66,7 @@ body {
   right: 100%;
   -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);
+  z-index: 100;
 }
 .pum-nav-items {
   padding: 0;
@@ -124,6 +126,7 @@ body {
   background-color: rgb(10, 10, 10);
   padding: 2px;
   box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+  z-index: 100;
 }
 .lang {
   display: inline-block;
@@ -147,4 +150,104 @@ body {
 }
 .translate-toggle {
   transform: translateX(40px);
+}
+
+/* ####################### Home ####################### */
+.home-section1-container {
+  width: 100%;
+  height: 50vh;
+  position: relative;
+  overflow: hidden;
+}
+.mini-fifa {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  height: 50px;
+  width: auto;
+}
+.home-logo {
+  width: 80%;
+  height: auto;
+  margin-bottom: 100px;
+  z-index: 99;
+}
+.home-logo-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.home-background {
+  height: 100%;
+  width: auto;
+  position: absolute;
+}
+
+.home-section2-container {
+  justify-self: center;
+  width: 98vw;
+  height: 45vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.home-section2-logo {
+  display: none;
+  height: 120px;
+  width: auto;
+}
+.home-section2-content-container {
+  padding: 12vw;
+  width: 100%;
+}
+.home-section2-title {
+  font-size: 25px;
+  text-decoration-line: underline;
+  text-decoration: underline solid white 3px;
+  text-underline-offset: 20px;
+}
+.home-section2-content {
+  font-size: 15px;
+  line-height: 2;
+}
+
+@media (orientation: landscape) {
+  .home-section1-container {
+    height: 650px;
+  }
+  .home-background {
+    width: 100%;
+  }
+  .mini-fifa {
+    right: 50px;
+    bottom: 50px;
+    height: 80px;
+  }
+  .home-logo {
+    width: 50%;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .home-section2-logo {
+    display: inline;
+  }
+  .home-section2-container {
+    height: 400px;
+  }
+  .home-section2-content-container {
+    width: 500px;
+    padding: 5vw;
+  }
+  .home-section2-title {
+    font-size: 30px;
+    text-decoration: underline solid white 3px;
+    text-underline-offset: 18px;
+  }
+  .home-section2-content {
+    font-size: 20px;
+    line-height: 2.3;
+  }
 }

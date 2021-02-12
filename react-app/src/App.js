@@ -135,6 +135,7 @@ const App = () => {
         </ul>
       </div>
       {/* <Slide className="nav" direction="down"> */}
+
       <nav className="nav">
         <div
           onClick={() => {
@@ -143,6 +144,7 @@ const App = () => {
         >
           <MdMenu className="burguer-menu" />
         </div>
+
         <Link
           className="nav-item-link"
           to={`/TurfMasters/${lang}`}
