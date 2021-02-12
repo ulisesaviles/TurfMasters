@@ -11,7 +11,7 @@ const Home = () => {
   let lang = window.location.href
   lang = lang.substr(lang.length-2,2)
   if (lang != "es" && lang != "en") {
-    lang == "es";
+    lang = "es";
   }
   
   return (
