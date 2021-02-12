@@ -10,9 +10,9 @@ import Contact from "./pages/Contact";
 import Installation from "./pages/Installation";
 import Projects from "./pages/Projects";
 import Product from "./pages/Product";
+import data from "./text.json";
 import logo from "./images/logo.png";
 import { MdMenu } from "@react-icons/all-files/md/MdMenu";
-import data from "./text.json";
 
 const App = () => {
   const [lang, setLang] = useState("es");

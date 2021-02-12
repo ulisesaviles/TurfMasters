@@ -1,4 +1,8 @@
 {
+  "logo" : {
+    "es" : "./images/logo.png",
+    "en" : "./images/logo.png"
+  },
   "nav-bar" :{
     "home":{
       "es": "INICIO",

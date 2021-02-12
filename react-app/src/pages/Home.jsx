@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Route, BrowserRouter as Router, Link, useParams} from "react-router-dom";
+import data from "../text.json"
 
 const Home = () => {
   let {lang} = useParams();
@@ -13,9 +14,6 @@ const Home = () => {
   return (
     <div>
       <h1>{title()}</h1>
-      <Link to="/product/mochila" >
-        Product
-      </Link>
     </div>
   );
 }
