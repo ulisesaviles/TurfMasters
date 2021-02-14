@@ -4,6 +4,9 @@ import data from "../text.json"
 const Footer = () => {
   let lang = window.location.href
   lang = lang.substr(lang.length-2,2)
+  if (lang != "es" && lang != "en") {
+    lang = "es";
+  }
   return (
     <div className="footer">
       <h3 className="footer-text">{data.footer.copyright[lang]}</h3>
