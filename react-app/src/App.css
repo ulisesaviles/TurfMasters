@@ -203,7 +203,6 @@ body {
 .home-section2-container {
   justify-self: center;
   width: 98vw;
-  height: 45vh;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -215,18 +214,60 @@ body {
   width: auto;
 }
 .home-section2-content-container {
-  padding: 12vw;
+  padding: 8vw 12vw 8vw 12vw;
   width: 100%;
+  text-align: center;
 }
 .home-section2-title {
   font-size: 25px;
   text-decoration-line: underline;
   text-decoration: underline solid white 3px;
   text-underline-offset: 20px;
+  line-height: 60px;
 }
 .home-section2-content {
   font-size: 15px;
   line-height: 2;
+}
+
+.home-section3-container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.home-section3-background {
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  position: absolute;
+  height: 100%;
+  width: auto;
+  min-width: 100%;
+}
+.home-section3-content-container {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 85vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 8vw;
+  margin: 6vw;
+  position: static;
+  z-index: 1;
+  text-align: center;
+}
+.home-section3-text-container {
+  width: 100%;
+}
+.home-section3-fifa {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-width: 500px;
 }
 
 @media (orientation: landscape) {
@@ -254,7 +295,8 @@ body {
   }
   .home-section2-content-container {
     width: 500px;
-    padding: 5vw;
+    padding: 2vw 0 2vw 5vw;
+    text-align: left;
   }
   .home-section2-title {
     font-size: 30px;
@@ -264,6 +306,22 @@ body {
   .home-section2-content {
     font-size: 20px;
     line-height: 2.3;
+  }
+  .home-section3-text-container {
+    width: 50%;
+    margin-right: 10vw;
+  }
+  .home-section3-fifa {
+    display: block;
+    width: auto;
+  }
+  .home-section3-content-container {
+    padding: 2vw 5vw;
+    flex-direction: row;
+    text-align: left;
+  }
+  .home-section3-background {
+    left: auto;
   }
 }
 

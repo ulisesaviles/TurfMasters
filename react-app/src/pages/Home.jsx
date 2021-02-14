@@ -5,7 +5,9 @@ import logo from "../images/logo.png";
 import { Bounce } from "react-awesome-reveal";
 import { Slide } from "react-awesome-reveal";
 import minififa from "../images/minififa.png";
+import fifa from "../images/fifa.jpg";
 import home from "../images/backgrounds/home.png"
+import home_about from "../images/backgrounds/home_about.jpg"
 
 const Home = () => {
   let lang = window.location.href
@@ -32,6 +34,20 @@ const Home = () => {
               </div>
           </div>
         </Slide>
+          <div className="home-section3-container">
+            <img src={home_about} alt="wallpaper" className="home-section3-background" />
+            <Slide direction="left" className="home-section3-content-container">
+              {/* <div className="home-section3-content-container"> */}
+              <>
+                <div className="home-section3-text-container">
+                  <h2 className="home-section2-title">{data.home.section3.title[lang]}</h2>
+                  <p className="home-section2-content">{data.home.section3.content[lang]}</p>
+                </div>
+                <img src={fifa} alt="Fifa-Certificate" className="home-section3-fifa"/>
+                </>
+              {/* </div> */}
+            </Slide>
+          </div>
     </div>
   );
 }
