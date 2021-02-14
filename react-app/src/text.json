@@ -72,7 +72,7 @@
             "es" : "Estadio Caliente es el estadio en donde debuta el equipo de primera división de futbol 'Xoloitzcuintles de Tijuana'.",
             "en" : "Caliente Stadium is the stadium where the first division soccer team 'Xoloitzcuintles de Tijuana' makes its debut."
           },
-          "img-url" : "./images/clients/xolos.jpg"
+          "img-url" : "https://raw.githubusercontent.com/ulisesaviles/TurfMasters/main/react-app/src/images/clients/xolos.jpg"
         },
         {
           "title" : {
@@ -83,7 +83,7 @@
             "es" : "Estadio Akron es el estadio en donde debuta el equipo de primera división de futbol 'Chivas de Guadalajara'.",
             "en" : "Akron Stadium is the stadium where the first division soccer team 'Chivas de Guadalajara' makes its debut."
           },
-          "img-url" : "./images/clients/chivas.jpg"
+          "img-url" : "https://raw.githubusercontent.com/ulisesaviles/TurfMasters/main/react-app/src/images/clients/chivas.jpg"
         },
         {
           "title" : {
@@ -94,7 +94,7 @@
             "es" : "Estadio Chevron es el estadio en donde debuta el equipo de primera división de beisbol 'Toros de Tijuana'.",
             "en" : "Chevron Stadium is the stadium where the first division baseball team 'Toros de Tijuana' makes its debut."
           },
-          "img-url" : "./images/clients/toros.jpg"
+          "img-url" : "https://raw.githubusercontent.com/ulisesaviles/TurfMasters/main/react-app/src/images/clients/toros.jpg"
         },
         {
           "title" : {
@@ -105,7 +105,7 @@
             "es" : "El palacio municipal de Tijuana, B.C., México, construído en 2009, cuenta con un jardín de 1km cuadrado con césped de Turf Masters.",
             "en" : "The City Hall of Tijuana, B.C., Mexico, built in 2009, has a 1km square garden with Turf Masters lawns."
           },
-          "img-url" : "./images/clients/palacio.jpg"
+          "img-url" : "https://raw.githubusercontent.com/ulisesaviles/TurfMasters/main/react-app/src/images/clients/palacio.jpg"
         }
       ]
     }
