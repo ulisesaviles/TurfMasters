@@ -273,7 +273,7 @@
               "es" : "Opción más económica",
               "en" : "Low cost option"
             },
-            "img" : "https://raw.githubusercontent.com/ulisesaviles/TurfMasters/main/react-app/src/images/products/Rubber%2050.png",
+            "img" : "https://raw.githubusercontent.com/ulisesaviles/TurfMasters/main/react-app/src/images/products/track.png",
             "description" : {
               "es" : "Rubber 50 ofrece una alternativa económica que cumple con todos los estándares de calidad, es la más comprada por escuelas.",
               "en" : "Rubber 50 offers a low cost alternative that meets all quality standards, it is the most purchased by schools."
@@ -292,7 +292,7 @@
               "es" : "",
               "en" : ""
             },
-            "img" : "https://raw.githubusercontent.com/ulisesaviles/TurfMasters/main/react-app/src/images/products/Rubber%2070.png",
+            "img" : "https://raw.githubusercontent.com/ulisesaviles/TurfMasters/main/react-app/src/images/products/track1.png",
             "description" : {
               "es" : "Rubber 70 es la gama media de materiales de pistas de atletismo. Ofrece extra soporte para evitar lesiones en los mejores atletas.",
               "en" : "Rubber 70 is the mid-range running track materials. Offers extra support to prevent injury to top athletes."
@@ -311,7 +311,7 @@
               "es" : "Recomendado para profesionales",
               "en" : "Recomended for professionals"
             },
-            "img" : "https://raw.githubusercontent.com/ulisesaviles/TurfMasters/main/react-app/src/images/products/Rubber%20pro.png",
+            "img" : "https://raw.githubusercontent.com/ulisesaviles/TurfMasters/main/react-app/src/images/products/track2.png",
             "description" : {
               "es" : "Rubber pro es el estándar de pistas profesionales. Ofrece soporte adicional gracias a su diseño innovador de tres capas.",
               "en" : "Rubber pro is the standard for professional tracks. Offers additional support thanks to its innovative three-layer design."
