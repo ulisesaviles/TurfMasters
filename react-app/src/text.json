@@ -151,7 +151,7 @@
               "es" : "Recomendado para Beisbol",
               "en" : "Recomended for Baseball"
             },
-            "img" : "./images/products/png/Birdie Putt.png",
+            "img" : "https://raw.githubusercontent.com/ulisesaviles/TurfMasters/main/react-app/src/images/products/Birdie%20Putt.png",
             "description" : {
               "es" : "Birdie Putt es el pasto ideal para beisbol por sus características especiales de baja fricción. Es el más comprado por equipos profesionales.",
               "en" : "Birdie Putt is the ideal grass for baseball due to its special low friction characteristics. It is the most purchased by professional teams."
@@ -170,7 +170,7 @@
               "es" : "Recomendado para Fútbol",
               "en" : "Recomended for Soccer"
             },
-            "img" : "./images/products/png/Blend 70.png",
+            "img" : "https://raw.githubusercontent.com/ulisesaviles/TurfMasters/main/react-app/src/images/products/Blend%2070.png",
             "description" : {
               "es" : "Blend 70 es el pasto ideal para fútbol por sus características especiales de alta fricción. Es el más comprado por equipos profesionales.",
               "en" : "Blend 70 is the ideal grass for soccer due to its special high friction characteristics. It is the most purchased by professional teams."
@@ -189,7 +189,7 @@
               "es" : "Recomendado para parques",
               "en" : "Recomended for parks"
             },
-            "img" : "./images/products/png/Catalina.png",
+            "img" : "https://raw.githubusercontent.com/ulisesaviles/TurfMasters/main/react-app/src/images/products/Catalina.png",
             "description" : {
               "es" : "Catalina es el pasto ideal para parques infantiles por sus características especiales de soporte, lo que evita la mayoría de las lesiones potenciales.",
               "en" : "Catalina is the ideal grass for playgrounds due to its special support characteristics, which avoids most potential injuries."
@@ -208,7 +208,7 @@
               "es" : "Recomendado para jardines",
               "en" : "Recomended for gardens"
             },
-            "img" : "./images/products/png/Expert 96.png",
+            "img" : "https://raw.githubusercontent.com/ulisesaviles/TurfMasters/main/react-app/src/images/products/Expert%2096.png",
             "description" : {
               "es" : "Expert 96 es el pasto ideal para jardines donésticos debido a que presenta un excelente balance entre comodidad y estética.",
               "en" : "Expert 96 is the ideal grass for home gardens due to its excellent balance between comfort and aesthetics."
@@ -227,7 +227,7 @@
               "es" : "Recomendado para interiores",
               "en" : "Recomended for interiors"
             },
-            "img" : "./images/products/png/Eagle Putt.png",
+            "img" : "https://raw.githubusercontent.com/ulisesaviles/TurfMasters/main/react-app/src/images/products/Eagle%20Putt.png",
             "description" : {
               "es" : "Fácil de limpiar e ideal para interiores por ser el más compacto de su clase, Eagle Putt es una excelente alternativa para Birdie Putt.",
               "en" : "Easy to clean and ideal for indoor use as the most compact in its class, Eagle Putt is an excellent alternative to Birdie Putt."
@@ -246,7 +246,7 @@
               "es" : "Aspecto natural",
               "en" : "Natural look"
             },
-            "img" : "./images/products/png/Napa.png",
+            "img" : "https://raw.githubusercontent.com/ulisesaviles/TurfMasters/main/react-app/src/images/products/Napa.png",
             "description" : {
               "es" : "Si lo que busca es pasto sintético con apariencia muy similar a pasto natural, entonces napa es la mejor opción.",
               "en" : "If what you are looking for is synthetic grass with an appearance very similar to natural grass, then napa is the best option."
@@ -273,7 +273,7 @@
               "es" : "Opción más económica",
               "en" : "Low cost option"
             },
-            "img" : "./images/products/png/Rubber 50.png",
+            "img" : "https://raw.githubusercontent.com/ulisesaviles/TurfMasters/main/react-app/src/images/products/Rubber%2050.png",
             "description" : {
               "es" : "Rubber 50 ofrece una alternativa económica que cumple con todos los estándares de calidad, es la más comprada por escuelas.",
               "en" : "Rubber 50 offers a low cost alternative that meets all quality standards, it is the most purchased by schools."
@@ -292,7 +292,7 @@
               "es" : "",
               "en" : ""
             },
-            "img" : "./images/products/png/Rubber 70.png",
+            "img" : "https://raw.githubusercontent.com/ulisesaviles/TurfMasters/main/react-app/src/images/products/Rubber%2070.png",
             "description" : {
               "es" : "Rubber 70 es la gama media de materiales de pistas de atletismo. Ofrece extra soporte para evitar lesiones en los mejores atletas.",
               "en" : "Rubber 70 is the mid-range running track materials. Offers extra support to prevent injury to top athletes."
@@ -311,7 +311,7 @@
               "es" : "Recomendado para profesionales",
               "en" : "Recomended for professionals"
             },
-            "img" : "./images/products/png/Rubber pro.png",
+            "img" : "https://raw.githubusercontent.com/ulisesaviles/TurfMasters/main/react-app/src/images/products/Rubber%20pro.png",
             "description" : {
               "es" : "Rubber pro es el estándar de pistas profesionales. Ofrece soporte adicional gracias a su diseño innovador de tres capas.",
               "en" : "Rubber pro is the standard for professional tracks. Offers additional support thanks to its innovative three-layer design."
@@ -338,7 +338,7 @@
               "es" : "",
               "en" : ""
             },
-            "img" : "./images/products/png/caucho.png",
+            "img" : "https://raw.githubusercontent.com/ulisesaviles/TurfMasters/main/react-app/src/images/products/caucho.png",
             "description" : {
               "es" : "El caucho es un material escencial para cualquier tipo de pasto artificial. Este absorbe el impacto para evitar que el pasto se desgaste.",
               "en" : "Rubber is an essential material for any type of artificial grass. It absorbs the impact to prevent the grass from wearing out."
@@ -357,7 +357,7 @@
               "es" : "",
               "en" : ""
             },
-            "img" : "./images/products/png/arenasilica.png",
+            "img" : "https://raw.githubusercontent.com/ulisesaviles/TurfMasters/main/react-app/src/images/products/arenasilica.png",
             "description" : {
               "es" : "La arena sílica suele ser una excelente solución para áreas play-ground. Su diseño extra fino permite soporte adicional para evitar lesiones.",
               "en" : "Silicone sand is usually an excellent solution for play-ground areas. Its extra fine-grinded design allows additional support to prevent injurys."
