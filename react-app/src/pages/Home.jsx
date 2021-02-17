@@ -17,7 +17,7 @@ const Home = () => {
   }
   
   return (
-    <div>
+    <div className="home-container">
       <div className="home-section1-container">
         <img src={home} alt="TurfMasters" className="home-background"/>
         <Slide  className="home-logo-container">
@@ -39,8 +39,9 @@ const Home = () => {
         <Slide direction="left" className="home-section3-content-container">
           <>
             <div className="home-section3-text-container">
-              <h2 className="home-section2-title">{data.home.section3.title[lang]}</h2>
-              <p className="home-section2-content">{data.home.section3.content[lang]}</p>
+              <h2 className="home-section3-title">{data.home.section3.title[lang]}</h2>
+              <div className="home-section3-separator"/>
+              <p className="home-section3-content">{data.home.section3.content[lang]}</p>
             </div>
             <img src={fifa} alt="Fifa-Certificate" className="home-section3-fifa"/>
             </>

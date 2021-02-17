@@ -191,6 +191,9 @@ body {
 }
 
 /* ####################### Home ####################### */
+.home-container {
+  min-height: calc(95vh - 180px);
+}
 .home-section1-container {
   width: 100%;
   height: 50vh;
@@ -225,7 +228,7 @@ body {
 
 .home-section2-container {
   justify-self: center;
-  width: 98vw;
+  width: 88vw;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -233,7 +236,6 @@ body {
 }
 .home-section2-logo {
   display: none;
-  height: 120px;
   width: auto;
 }
 .home-section2-content-container {
@@ -286,18 +288,28 @@ body {
 .home-section3-text-container {
   width: 100%;
 }
+.home-section3-title {
+  font-size: 25px;
+}
+.home-section3-separator {
+  width: 90%;
+  height: 2px;
+  background-color: rgb(255, 255, 255);
+}
+.home-section3-content {
+  font-size: 15px;
+  line-height: 2;
+}
 .home-section3-fifa {
   display: block;
   width: 100%;
   height: auto;
-  max-width: 500px;
+  max-width: 400px;
 }
 
 .home-section4-container {
   text-align: center;
 }
-/* .home-section4-title {
-} */
 .home-section4-galery {
   display: flex;
   flex-direction: row;
@@ -357,12 +369,30 @@ body {
     width: 50%;
   }
 }
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 800px) {
+  .home-section3-content {
+    font-size: 16px;
+    line-height: 2.3;
+  }
+  .home-section3-text-container {
+    width: 50%;
+    margin-right: 10vw;
+  }
+  .home-section3-fifa {
+    max-width: 40%;
+  }
+  .home-section3-content-container {
+    padding: 2vw 5vw;
+    flex-direction: row;
+    text-align: left;
+  }
   .home-section2-logo {
     display: inline;
+    width: 40%;
   }
   .home-section2-container {
     height: 400px;
+    padding: 0 5vw;
   }
   .home-section2-content-container {
     width: 500px;
@@ -374,6 +404,34 @@ body {
     text-decoration: underline solid white 3px;
     text-underline-offset: 18px;
   }
+  .home-section2-title {
+    font-size: 30px;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  .home-section3-background {
+    left: auto;
+  }
+  .home-section4-galery {
+    justify-content: center;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .home-section3-content {
+    font-size: 20px;
+  }
+  /* .home-section2-logo {
+    display: inline;
+    height: 120px;
+  }
+  .home-section2-container {
+    height: 400px;
+  }
+  .home-section2-content-container {
+    width: 500px;
+    padding: 2vw 0 2vw 5vw;
+    text-align: left;
+  } */
   .home-section2-content {
     font-size: 20px;
     line-height: 2.3;
@@ -381,10 +439,6 @@ body {
   .home-section3-text-container {
     width: 50%;
     margin-right: 10vw;
-  }
-  .home-section3-fifa {
-    display: block;
-    width: auto;
   }
   .home-section3-content-container {
     padding: 2vw 5vw;
@@ -399,7 +453,9 @@ body {
   }
 }
 
+/* ####################### Products ####################### */
 .products-container {
+  min-height: calc(95vh - 180px);
   width: 100%;
   height: 100%;
   display: flex;
@@ -454,6 +510,7 @@ body {
   backdrop-filter: blur(3px); */
   margin-bottom: 40px;
 }
+
 .products-product-header-container {
   padding: 0 5% 0 5%;
   width: 90%;
@@ -533,6 +590,7 @@ body {
   }
 }
 
+/* ####################### Product ####################### */
 .product-container {
   width: 100%;
   min-height: calc(95vh - 180px);
@@ -711,6 +769,7 @@ body {
   }
 }
 
+/* ####################### Scroll ####################### */
 ::-webkit-scrollbar {
   width: 12px;
 }
