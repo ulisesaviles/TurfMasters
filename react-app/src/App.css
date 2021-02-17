@@ -593,6 +593,7 @@ body {
   justify-content: space-evenly;
   text-align: center;
   align-items: center;
+  overflow-x: scroll;
 }
 .product-galery-item-container {
   width: 70px;
