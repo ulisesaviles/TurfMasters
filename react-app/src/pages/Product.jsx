@@ -4,7 +4,6 @@ import data from "../text.json";
 import products from "../images/backgrounds/products.jpg"
 import { IoChevronBack } from "@react-icons/all-files/io5/IoChevronBack";
 
-
 const Product = () => {
   let { productName } = useParams();
   const esName = urlToName(productName);
@@ -61,7 +60,7 @@ const Product = () => {
   return (
     <div className="product-container">
       <img className="products-background" src={products}/>
-      <div className="product-content-container">
+      <div className="product-content-container" id="product-content-container">
         <Link className="product-back-link" to={`/TurfMasters/products/${lang}`}>
           <div className="product-back-container">
             <IoChevronBack className="product-back-icon"/>

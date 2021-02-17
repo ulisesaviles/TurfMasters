@@ -2,7 +2,6 @@ import React from "react";
 import { Link} from "react-router-dom";
 import data from "../text.json"
 import logo from "../images/logo.png";
-import { Bounce } from "react-awesome-reveal";
 import { Slide } from "react-awesome-reveal";
 import minififa from "../images/minififa.png";
 import fifa from "../images/fifa.jpg";
