@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/TurfMasters/static/css/main.b98c8a8d.chunk.css",
-    "main.js": "/TurfMasters/static/js/main.30e9907c.chunk.js",
-    "main.js.map": "/TurfMasters/static/js/main.30e9907c.chunk.js.map",
+    "main.css": "/TurfMasters/static/css/main.0b1849d5.chunk.css",
+    "main.js": "/TurfMasters/static/js/main.13ab9bd7.chunk.js",
+    "main.js.map": "/TurfMasters/static/js/main.13ab9bd7.chunk.js.map",
     "runtime-main.js": "/TurfMasters/static/js/runtime-main.2344ff17.js",
     "runtime-main.js.map": "/TurfMasters/static/js/runtime-main.2344ff17.js.map",
     "static/js/2.8ba6df40.chunk.js": "/TurfMasters/static/js/2.8ba6df40.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.8b28055f.chunk.js": "/TurfMasters/static/js/3.8b28055f.chunk.js",
     "static/js/3.8b28055f.chunk.js.map": "/TurfMasters/static/js/3.8b28055f.chunk.js.map",
     "index.html": "/TurfMasters/index.html",
-    "static/css/main.b98c8a8d.chunk.css.map": "/TurfMasters/static/css/main.b98c8a8d.chunk.css.map",
+    "static/css/main.0b1849d5.chunk.css.map": "/TurfMasters/static/css/main.0b1849d5.chunk.css.map",
     "static/js/2.8ba6df40.chunk.js.LICENSE.txt": "/TurfMasters/static/js/2.8ba6df40.chunk.js.LICENSE.txt",
     "static/media/fifa.62b2a94a.jpg": "/TurfMasters/static/media/fifa.62b2a94a.jpg",
     "static/media/home.21646695.png": "/TurfMasters/static/media/home.21646695.png",
@@ -22,7 +22,7 @@
   "entrypoints": [
     "static/js/runtime-main.2344ff17.js",
     "static/js/2.8ba6df40.chunk.js",
-    "static/css/main.b98c8a8d.chunk.css",
-    "static/js/main.30e9907c.chunk.js"
+    "static/css/main.0b1849d5.chunk.css",
+    "static/js/main.13ab9bd7.chunk.js"
   ]
 }
