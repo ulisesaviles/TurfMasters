@@ -1,28 +1,30 @@
 {
   "files": {
-    "main.css": "/TurfMasters/static/css/main.0b1849d5.chunk.css",
-    "main.js": "/TurfMasters/static/js/main.13ab9bd7.chunk.js",
-    "main.js.map": "/TurfMasters/static/js/main.13ab9bd7.chunk.js.map",
+    "main.css": "/TurfMasters/static/css/main.4c4a96b3.chunk.css",
+    "main.js": "/TurfMasters/static/js/main.347d1916.chunk.js",
+    "main.js.map": "/TurfMasters/static/js/main.347d1916.chunk.js.map",
     "runtime-main.js": "/TurfMasters/static/js/runtime-main.2344ff17.js",
     "runtime-main.js.map": "/TurfMasters/static/js/runtime-main.2344ff17.js.map",
-    "static/js/2.8ba6df40.chunk.js": "/TurfMasters/static/js/2.8ba6df40.chunk.js",
-    "static/js/2.8ba6df40.chunk.js.map": "/TurfMasters/static/js/2.8ba6df40.chunk.js.map",
+    "static/js/2.26371ee2.chunk.js": "/TurfMasters/static/js/2.26371ee2.chunk.js",
+    "static/js/2.26371ee2.chunk.js.map": "/TurfMasters/static/js/2.26371ee2.chunk.js.map",
     "static/js/3.8b28055f.chunk.js": "/TurfMasters/static/js/3.8b28055f.chunk.js",
     "static/js/3.8b28055f.chunk.js.map": "/TurfMasters/static/js/3.8b28055f.chunk.js.map",
     "index.html": "/TurfMasters/index.html",
-    "static/css/main.0b1849d5.chunk.css.map": "/TurfMasters/static/css/main.0b1849d5.chunk.css.map",
-    "static/js/2.8ba6df40.chunk.js.LICENSE.txt": "/TurfMasters/static/js/2.8ba6df40.chunk.js.LICENSE.txt",
+    "static/css/main.4c4a96b3.chunk.css.map": "/TurfMasters/static/css/main.4c4a96b3.chunk.css.map",
+    "static/js/2.26371ee2.chunk.js.LICENSE.txt": "/TurfMasters/static/js/2.26371ee2.chunk.js.LICENSE.txt",
+    "static/media/contact.44c59e7f.jpg": "/TurfMasters/static/media/contact.44c59e7f.jpg",
     "static/media/fifa.62b2a94a.jpg": "/TurfMasters/static/media/fifa.62b2a94a.jpg",
     "static/media/home.21646695.png": "/TurfMasters/static/media/home.21646695.png",
     "static/media/home_about.ec2a0e8f.jpg": "/TurfMasters/static/media/home_about.ec2a0e8f.jpg",
+    "static/media/instalacion logo.fcc85ed2.jpg": "/TurfMasters/static/media/instalacion logo.fcc85ed2.jpg",
     "static/media/logo.174abdf4.png": "/TurfMasters/static/media/logo.174abdf4.png",
     "static/media/minififa.255fd5e2.png": "/TurfMasters/static/media/minififa.255fd5e2.png",
     "static/media/products.43a09e69.jpg": "/TurfMasters/static/media/products.43a09e69.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.2344ff17.js",
-    "static/js/2.8ba6df40.chunk.js",
-    "static/css/main.0b1849d5.chunk.css",
-    "static/js/main.13ab9bd7.chunk.js"
+    "static/js/2.26371ee2.chunk.js",
+    "static/css/main.4c4a96b3.chunk.css",
+    "static/js/main.347d1916.chunk.js"
   ]
 }
