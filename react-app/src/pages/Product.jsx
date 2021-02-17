@@ -48,6 +48,15 @@ const Product = () => {
       }
     }
   }
+  function label(label) {
+    if (label != "") {
+      return(
+        <div className="product-label-container">
+          <h6 className="product-label">{product.label[lang]}</h6>
+        </div>
+      )
+    }
+  }
   
   return (
     <div className="product-container">
@@ -61,9 +70,9 @@ const Product = () => {
         </Link>
         <div className="product-right-section-container">
           <h1 className="product-title">{product.title[lang]}</h1>
-          <div className="product-label-container">
-            <h6 className="product-label">{product.label[lang]}</h6>
-          </div>
+          {
+            label(product.label[lang])
+          }
           <div className="product-img-section">
             <img className="product-img" src={product.imgs[galeryBooleans.indexOf(true)]} />
             <div className="product-galery-container">
