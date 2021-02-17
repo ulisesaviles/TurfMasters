@@ -392,11 +392,9 @@
       "en" : "Installation services"
     },
     "content" : {
-      "es" : "Sabemos que no puedes resistir a probar nuestro césped en tu patio o proyecto, por lo que en la compra de cualquiera de nuestros productos, el equipo de turfmasters se hará cargo del 100% del proceso de instalación.          De esta forma, que el cliente solamente tiene que preocuparse por elegir su césped favorito y turfmasters se hará cargo del resto.",
-      "en" : "We know that you can't resist testing our grass in your yard or project, so when you buy any of our products, the turfmasters team will take care of 100% of the installation process.          In this way, the client only has to worry about choosing their favorite grass and turfmasters will take care of the rest."
-    },
-    "background" : "https://raw.githubusercontent.com/ulisesaviles/TurfMasters/main/react-app/src/images/backgrounds/contact.jpg",
-    "img" : "https://raw.githubusercontent.com/ulisesaviles/TurfMasters/main/react-app/src/images/backgrounds/instalacion%20logo.jpg"
+      "es" : "Sabemos que no puedes resistir a probar nuestro césped en tu patio o proyecto, por lo que en la compra de cualquiera de nuestros productos, el equipo de turfmasters se hará cargo del 100% del proceso de instalación. \n \t De esta forma, que el cliente solamente tiene que preocuparse por elegir su césped favorito y turfmasters se hará cargo del resto.",
+      "en" : "\t We know that you can't resist testing our grass in your yard or project, so when you buy any of our products, the turfmasters team will take care of 100% of the installation process.\n \t In this way, the client only has to worry about choosing their favorite grass and turfmasters will take care of the rest."
+    }
   },
   "projects" : {
     "title" : {

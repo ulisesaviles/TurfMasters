@@ -25,7 +25,7 @@ const Home = () => {
         </Slide>
         <img src={minififa} alt="Fifa-certified" className="mini-fifa"/>
       </div>
-      <Slide direction="left" delay="15">
+      <Slide className="home-section2-super-container"direction="left" delay="15">
         <div className="home-section2-container">
           <img src={logo} alt="TurfMasters" className="home-section2-logo"/>
             <div className="home-section2-content-container">
