@@ -470,6 +470,9 @@ body {
   background-color: rgb(255, 255, 255);
   margin: 15px 5%;
 }
+.product-description-title {
+  margin-top: 0;
+}
 .products-product-description-container {
   padding: 0 5%;
   text-align: left;
@@ -498,7 +501,6 @@ body {
   color: rgb(255, 255, 255);
   font-weight: 700;
 }
-
 @media only screen and (min-width: 700px) {
   .products-product-container {
     width: 45%;
@@ -509,10 +511,184 @@ body {
     width: 29%;
   }
 }
+
+.product-container {
+  width: 100%;
+  min-height: calc(100vh - 180px - 10vh);
+}
+.product-content-container {
+  background-color: rgba(0, 0, 0, 0.75);
+  -webkit-backdrop-filter: blur(3px);
+  backdrop-filter: blur(3px);
+  margin: 5vh 10vw;
+  padding: 5vh 5vw;
+  min-height: 100%;
+}
+.product-back-link {
+  text-decoration: none;
+  display: none;
+}
+.product-back-container {
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  color: rgb(255, 255, 255);
+  width: 140px;
+  height: 35px;
+  /* border-radius: 100px; */
+  align-items: center;
+  transition-property: all;
+  transition-duration: 0.05s;
+  transition-timing-function: ease-in-out;
+}
+.product-back-container:hover {
+  /* background-color: rgba(110, 229, 62, 0.9); */
+  transform: scale(1.1);
+}
+.product-back-icon {
+  height: 100%;
+  color: rgb(110, 229, 62);
+  width: auto;
+}
+.product-back-text {
+  font-size: 18px;
+  font-weight: 500;
+}
+.product-right-section-container {
+  position: static;
+  width: 100%;
+  height: 100%;
+}
+.product-title {
+  margin: 0;
+}
+.product-label-container {
+  background-color: rgb(102, 202, 53);
+  display: flex;
+  border-radius: 100px;
+  padding: 5px 10px;
+  height: 18px;
+  justify-content: center;
+  align-items: center;
+  width: 35%;
+  min-width: 150px;
+  margin: 10px 0 30px 0;
+  text-align: center;
+}
+.product-img-section {
+  width: 100%;
+  position: static;
+  margin: 10px 0;
+  text-align: center;
+}
+.product-img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+.product-galery-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  text-align: center;
+  align-items: center;
+}
+.product-galery-item-container {
+  width: 70px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition-property: all;
+  transition-duration: 0.05s;
+  transition-timing-function: ease-in-out;
+  border-style: solid;
+  border-width: 3px;
+  border-color: rgba(110, 229, 62, 0);
+}
+.product-galery-item-container:hover {
+  transform: scale(1.2);
+  border-color: rgba(110, 229, 62, 1);
+}
+.product-galery-item-img {
+  width: 70px;
+  height: auto;
+}
+.product-galery-item-container-selected {
+  border-style: solid;
+  border-width: 3px;
+  border-color: rgba(110, 229, 62, 1);
+}
+.product-separator {
+  margin: 20px 0;
+  height: 1.5px;
+  background-color: rgb(255, 255, 255);
+}
+.product-description-title {
+  margin-bottom: 10px;
+}
+.product-description {
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+.product-specs {
+  margin-top: 10px;
+}
+.product-contact-btn-link {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  display: flex;
+  justify-self: center;
+}
+.product-contact-btn-container {
+  border-style: solid;
+  border-width: 3px;
+  border-color: rgb(110, 229, 62);
+  height: 30px;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin: 20px auto;
+  transition-property: all;
+  transition-duration: 0.05s;
+  transition-timing-function: ease-in-out;
+}
+.product-contact-btn-container:hover {
+  transform: scale(1.1);
+  color: rgb(110, 229, 62);
+}
+
+@media only screen and (min-width: 800px) {
+  .product-right-section-container {
+    position: relative;
+    top: 0;
+    left: 50%;
+    width: 50%;
+  }
+  .product-back-link {
+    position: absolute;
+    display: block;
+  }
+  .product-img-section {
+    position: absolute;
+    left: -100%;
+    margin: 0;
+    text-align: left;
+  }
+  .product-label-container {
+    margin: 10px 0;
+  }
+  .product-img {
+    width: 90%;
+  }
+}
+
 ::-webkit-scrollbar {
   width: 12px;
 }
-
 ::-webkit-scrollbar-thumb {
   background: rgb(100, 100, 100);
   border-radius: 6px;

@@ -76,7 +76,7 @@ const Products = () => {
             <div className="products-section-products-container">
             {
               section.products.map((product) => (
-                productCompo(product.title, product.label, product.description, product.img, product.title.es)
+                productCompo(product.title, product.label, product.description, product.imgs[0], product.title.es)
               ))
             }
             </div>
