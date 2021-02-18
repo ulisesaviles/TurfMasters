@@ -13,16 +13,18 @@ const Installation = () => {
   return (
     <div className="product-container">
       <img src={contact} className="products-background" alt="background" />
-      <div className="installation-content-container">
-        <div className="product-right-section-container">
-          <h1 className="installation-title">{data.installation.title[lang]}</h1>
-          <div className="installation-separator"/>
-          <p className="installation-content">{data.installation.content[lang]}</p>
+     <Slide>
+        <div className="installation-content-container">
+          <div className="product-right-section-container">
+            <h1 className="installation-title">{data.installation.title[lang]}</h1>
+            <div className="installation-separator"/>
+            <p className="installation-content">{data.installation.content[lang]}</p>
+          </div>
+          <div className="installation-img-container">
+            <img src={contact_logo} className="installation-img" alt="installation-demo"/>
+          </div>
         </div>
-        <div className="installation-img-container">
-          <img src={contact_logo} className="installation-img" alt="installation-demo"/>
-        </div>
-      </div>
+      </Slide> 
     </div>
   );
 }
