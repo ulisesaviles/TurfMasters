@@ -401,7 +401,7 @@
       "es" : "Proyectos realizados",
       "en" : "Fulfilled projects"
     },
-    "secciones" : [
+    "sections" : [
       {
         "title" : {
           "es" : "Estadios profesionales",
@@ -421,7 +421,7 @@
               "es" : "El Estadio Caliente es uno de los proyectos de los que la empresa está más orgulloso, pues cumplimos el objetivo del cliente de lograr una cancha de futbol con los estándares de calidad que un equipo de primera división de la liga mexicana requiere. El proyecto se terminó en un periodo cercano a los 2 meses desde la primer cotización hasta el producto terminado.",
               "en" : "The Caliente Stadium is one of the projects that the company is most proud of, as we fulfill the client's objective of achieving a soccer field with the quality standards that a first division team in the Mexican league requires. The project was completed in a period close to 2 months from the first quotation to the finished product."
             },
-            "img-url" : "./images/clients/xolos.jpg"
+            "img-url" : "https://raw.githubusercontent.com/ulisesaviles/TurfMasters/main/react-app/src/images/clients/xolos.jpg"
           },
           {
             "title" : {
@@ -436,7 +436,7 @@
               "es" : "El equipo de turfmasters se empeñó completamente en este proyecto, sobre todo por ser el equipo favorito de la empresa, pues se trata de la ciudad natal del patrón. Proyectos como este no solamente requieren esfuerzo y calidad, sino que el resultado perfecto se logra con pasión, que fue lo que nos permitió un excelente desempeño en el proyecto más  ambicioso que ha tenido la empresa.",
               "en" : "The team of turfmasters was completely committed to this project, especially because it is the company's favorite team, since it is the hometown of the CEO. Projects like this not only require effort and quality, but the perfect result is achieved with passion, which was what allowed us to perform well in the most ambitious project the company has ever had."
             },
-            "img-url" : "./images/clients/chivas.jpg"
+            "img-url" : "https://raw.githubusercontent.com/ulisesaviles/TurfMasters/main/react-app/src/images/clients/chivas.jpg"
           },
           {
             "title" : {
@@ -451,14 +451,14 @@
               "es" : "El estadio Chevron, hogar de los Toros de Tijuana, fue el primer gran proyecto del equipo de turfmasters, y nos complace decir que nuestro primer gran proyecto fue nuestro primer gran éxito, pues hoy en día se debutan juegos profesionales de la liga mexicana de beisbol. El proyecto cumplió con todos los estándares de calidad requeridos para que esto sucediera sin ninguna complicación.",
               "en" : "The Chevron Stadium, home of the Tijuana Bulls, was the first great project of the turfmasters team, and we are pleased to say that our first great project was our first great success, since today professional games of the Mexican baseball league are debuting. The project met all the quality standards required for this to happen without any complications."
             },
-            "img-url" : "./images/clients/toros.jpg"
+            "img-url" : "https://raw.githubusercontent.com/ulisesaviles/TurfMasters/main/react-app/src/images/clients/toros.jpg"
           }
         ]
       },
       {
         "title" : {
-          "es" : "Estadios profesionales",
-          "en" : "Professional stadiums"
+          "es" : "Parques",
+          "en" : "Parks"
         },
         "projects" : [
           {
@@ -474,7 +474,30 @@
               "es" : "No por no ser un enorme proyecto significa que no estamos orgullosos de los resultados. El parque México en playas de Tijuana tuvo una gran renovación en 2019, en la que turfmasters tuvo la oportunidad de participar con el césped artificial en donde tantos niños, familias y mascotas están generando memorias inolvidables hoy en día.",
               "en" : "Not because it is not a huge project does it mean that we are not proud of the results. The Mexico park in Playas de Tijuana had a great renovation in 2019, in which turfmasters had the opportunity to participate with the artificial grass where so many children, families and pets are generating unforgettable memories today."
             },
-            "img-url" : "./images/clients/park.jpg"
+            "img-url" : "https://raw.githubusercontent.com/ulisesaviles/TurfMasters/main/react-app/src/images/clients/park.jpg"
+          }
+        ]
+      },
+      {
+        "title" : {
+          "es" : "Gobiernos",
+          "en" : "Governments"
+        },
+        "projects" : [
+          {
+            "title" : {
+              "es" : "Palacio municipal, Tijuana, B.C.",
+              "en" : "Tijuana's City Hall"
+            },
+            "label" : {
+              "es" : "Terminado en: 2019",
+              "en" : "Finished in 2019"
+            },
+            "content" : {
+              "es" : "El palacio municipal de Tijuana, B.C., México, construído en 2009, cuenta con un jardín de 1km cuadrado con césped de Turf Masters.",
+              "en" : "The City Hall of Tijuana, B.C., Mexico, built in 2009, has a 1km square garden with Turf Masters lawns."
+            },
+            "img-url" : "https://raw.githubusercontent.com/ulisesaviles/TurfMasters/main/react-app/src/images/clients/palacio.jpg"
           }
         ]
       }
