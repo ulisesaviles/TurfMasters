@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/TurfMasters/static/css/main.701957da.chunk.css",
-    "main.js": "/TurfMasters/static/js/main.6b034f2e.chunk.js",
-    "main.js.map": "/TurfMasters/static/js/main.6b034f2e.chunk.js.map",
+    "main.css": "/TurfMasters/static/css/main.a47dd7d7.chunk.css",
+    "main.js": "/TurfMasters/static/js/main.d501487d.chunk.js",
+    "main.js.map": "/TurfMasters/static/js/main.d501487d.chunk.js.map",
     "runtime-main.js": "/TurfMasters/static/js/runtime-main.2344ff17.js",
     "runtime-main.js.map": "/TurfMasters/static/js/runtime-main.2344ff17.js.map",
-    "static/js/2.26371ee2.chunk.js": "/TurfMasters/static/js/2.26371ee2.chunk.js",
-    "static/js/2.26371ee2.chunk.js.map": "/TurfMasters/static/js/2.26371ee2.chunk.js.map",
+    "static/js/2.b5b693b9.chunk.js": "/TurfMasters/static/js/2.b5b693b9.chunk.js",
+    "static/js/2.b5b693b9.chunk.js.map": "/TurfMasters/static/js/2.b5b693b9.chunk.js.map",
     "static/js/3.8b28055f.chunk.js": "/TurfMasters/static/js/3.8b28055f.chunk.js",
     "static/js/3.8b28055f.chunk.js.map": "/TurfMasters/static/js/3.8b28055f.chunk.js.map",
     "index.html": "/TurfMasters/index.html",
-    "static/css/main.701957da.chunk.css.map": "/TurfMasters/static/css/main.701957da.chunk.css.map",
-    "static/js/2.26371ee2.chunk.js.LICENSE.txt": "/TurfMasters/static/js/2.26371ee2.chunk.js.LICENSE.txt",
+    "static/css/main.a47dd7d7.chunk.css.map": "/TurfMasters/static/css/main.a47dd7d7.chunk.css.map",
+    "static/js/2.b5b693b9.chunk.js.LICENSE.txt": "/TurfMasters/static/js/2.b5b693b9.chunk.js.LICENSE.txt",
+    "static/media/about.f9dcf514.jpg": "/TurfMasters/static/media/about.f9dcf514.jpg",
     "static/media/contact.44c59e7f.jpg": "/TurfMasters/static/media/contact.44c59e7f.jpg",
     "static/media/fifa.62b2a94a.jpg": "/TurfMasters/static/media/fifa.62b2a94a.jpg",
     "static/media/home.21646695.png": "/TurfMasters/static/media/home.21646695.png",
@@ -24,8 +25,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.2344ff17.js",
-    "static/js/2.26371ee2.chunk.js",
-    "static/css/main.701957da.chunk.css",
-    "static/js/main.6b034f2e.chunk.js"
+    "static/js/2.b5b693b9.chunk.js",
+    "static/css/main.a47dd7d7.chunk.css",
+    "static/js/main.d501487d.chunk.js"
   ]
 }
