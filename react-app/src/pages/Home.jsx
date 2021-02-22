@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 import { Link} from "react-router-dom";
 import data from "../text.json"
 import logo from "../images/logo.png";
@@ -9,14 +9,17 @@ import home from "../images/backgrounds/home.png"
 import home_about from "../images/backgrounds/home_about.jpg"
 
 const Home = () => {
-  window.scrollTo(0, 0)
+  const [scrollToTop, setScrollToTop] = useState(false);
+  if (!scrollToTop) {
+    window.scrollTo(0, 0);
+    setScrollToTop(true);
+  }
 
   let lang = window.location.href
   lang = lang.substr(lang.length-2,2)
   if (lang != "es" && lang != "en") {
     lang = "es";
   }
-  
 
   return (
     <div className="home-container">

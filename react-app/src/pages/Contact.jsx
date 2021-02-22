@@ -9,7 +9,12 @@ import mex from "../images/mex.png";
 import emailjs from 'emailjs-com';
 
 const Contact = () => {
-  window.scrollTo(0, 0)
+  const [scrollToTop, setScrollToTop] = useState(false);
+  if (!scrollToTop) {
+    window.scrollTo(0, 0);
+    setScrollToTop(true);
+  }
+  
   const [submited, setSubmited] = useState(false);
   const [name, setName] = useState("");
   const [mail, setMail] = useState("");

@@ -5,7 +5,12 @@ import about from "../images/backgrounds/about.jpg";
 import logo from "../images/logo.png";
 
 const About = (props) => {
-  window.scrollTo(0, 0)
+  const [scrollToTop, setScrollToTop] = useState(false);
+  if (!scrollToTop) {
+    window.scrollTo(0, 0);
+    setScrollToTop(true);
+  }
+  
   let lang = window.location.href
   lang = lang.substr(lang.length-2,2)
   if (lang != "es" && lang != "en") {

@@ -5,17 +5,24 @@ import products from "../images/backgrounds/products.jpg"
 import { IoChevronBack } from "@react-icons/all-files/io5/IoChevronBack";
 
 const Product = () => {
-  window.scrollTo(0, 0)
+  const [scrollToTop, setScrollToTop] = useState(false);
+  if (!scrollToTop) {
+    window.scrollTo(0, 0);
+    setScrollToTop(true);
+  }
+
   let { productName } = useParams();
   const esName = urlToName(productName);
   const product = queryProduct(esName);
   const [galeryBooleans, setGaleryBooleans] = useState("No data");
   const [galeryImgClases, setGaleryImgClases] = useState("No data")
+
   let lang = window.location.href
   lang = lang.substr(lang.length-2,2)
   if (lang != "es" && lang != "en") {
     lang = "es";
   }
+
   if (galeryBooleans == "No data") {
     let temp = [true];
     for (let i = 1; i < product.imgs.length; i++) {
@@ -29,6 +36,7 @@ const Product = () => {
     setGaleryBooleans(temp);
     console.log("done");
   }
+
   function queryProduct(esName){
     for (let section = 0; section < data.products.sections.length; section++) {
       for(let product = 0; product < data.products.sections[section].products.length; product++){
@@ -38,6 +46,7 @@ const Product = () => {
       }
     }
   }
+
   function urlToName(titleInSpanish) {
     let temp;
     while(true){
@@ -48,6 +57,7 @@ const Product = () => {
       }
     }
   }
+  
   function label(label) {
     if (label != "") {
       return(

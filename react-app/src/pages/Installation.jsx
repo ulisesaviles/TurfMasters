@@ -1,11 +1,15 @@
-import React from "react";
+import React, {useState} from "react";
 import data from "../text.json";
 import { Slide } from "react-awesome-reveal";
 import contact from "../images/backgrounds/contact.jpg";
 import contact_logo from "../images/backgrounds/instalacion logo.jpg";
 
 const Installation = () => {
-  window.scrollTo(0, 0)
+  const [scrollToTop, setScrollToTop] = useState(false);
+  if (!scrollToTop) {
+    window.scrollTo(0, 0);
+    setScrollToTop(true);
+  }
   let lang = window.location.href
   lang = lang.substr(lang.length-2,2)
   if (lang != "es" && lang != "en") {
