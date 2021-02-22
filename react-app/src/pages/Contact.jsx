@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import data from "../text.json";
 import { Slide } from "react-awesome-reveal";
+import { Fade } from "react-awesome-reveal";
 import logo from "../images/logo.png";
 import contact from "../images/backgrounds/contact.jpg";
 import { MdPhone } from "@react-icons/all-files/md/MdPhone";
@@ -14,7 +15,7 @@ const Contact = () => {
     window.scrollTo(0, 0);
     setScrollToTop(true);
   }
-  
+
   const [submited, setSubmited] = useState(false);
   const [name, setName] = useState("");
   const [mail, setMail] = useState("");
@@ -99,17 +100,17 @@ const Contact = () => {
   return (
     <div className="contact-container">
       <img src={contact} alt="background" className="products-background"/>
-      <div className={alertClasses}>
-        <div className="contact-alert-container">
-          <h1 className="contact-alert-title">{data.contact["send-mail"][res == "OK" ? "success" : "err"].title[lang]}</h1>
-          <p className="contact-alert-content">{data.contact["send-mail"][res == "OK" ? "success" : "err"].content[lang]}</p>
-          <div onClick={() => {
-            setAlertClasses("contact-alert-background hide");
-          }} className="contact-alert-btn-container">
-            <h2 className="contact-alert-btn-content">{data.contact["send-mail"]["hide-btn"][lang]}</h2>
+        <Fade className={alertClasses} duration="100">
+          <div className="contact-alert-container">
+            <h1 className="contact-alert-title">{data.contact["send-mail"][res == "OK" ? "success" : "err"].title[lang]}</h1>
+            <p className="contact-alert-content">{data.contact["send-mail"][res == "OK" ? "success" : "err"].content[lang]}</p>
+            <div onClick={() => {
+              setAlertClasses("contact-alert-background hide");
+            }} className="contact-alert-btn-container">
+              <h2 className="contact-alert-btn-content">{data.contact["send-mail"]["hide-btn"][lang]}</h2>
+            </div>
           </div>
-        </div>
-      </div>
+        </Fade>
       <Slide>
         <div className="contact-content-container">
           <div className="contact-left-container">
