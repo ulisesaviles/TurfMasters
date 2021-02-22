@@ -553,10 +553,18 @@
         "es" : "Nuestro equipo estará contento de apoyarte a cualquier hora del día, cualquier día de la semana.",
         "en" : "Our team will be happy to help you at any time of the day, any day of the week."
       },
-      "tel" : " + 52 1 (664) 405 34 11",
+      "tel" : " + 52 (664) 405 34 11",
       "mail" : "avilesulises1@gmail.com"
     },
     "send-mail" : {
+      "title" : {
+        "es" : "¡Envíanos un correo!",
+        "en" : "Send us an E-mail!"
+      },
+      "input-err" : {
+        "es" : "Ingresa un valor válido",
+        "en" : "Enter a valid input"
+      },
       "name" : {
         "es" : "Tu nombre",
         "en" : "Your name"
@@ -576,7 +584,32 @@
       "send" : {
         "es" : "Enviar",
         "en" : "Send"
+      },
+      "success" : {
+        "title" : {
+          "es" : "Correo enviado con éxito",
+          "en" : "E-mail succesfully sent"
+        },
+        "content" : {
+          "es" : "Gracias por su preferencia, ¡El equipo de TurfMasters se pondrá en contacto con usted lo antes posible!",
+          "en" : "Thanks for your preference, TurfMaster's team will contact you as soon as possible!"
+        }
+      },
+      "err" : {
+        "title" : {
+          "es" : "Ha ocurrido un error",
+          "en" : "An error has occurred"
+        },
+        "content" : {
+          "es" : "Algo salió mal, sugerimos ponerse en contacto a través de otro medio.",
+          "en" : "Something went wrong, we suggest contacting us in another way."
+        }
+      },
+      "hide-btn" : {
+        "es" : "Entendido",
+        "en" : "OK"
       }
+      
     }
   }
 }
