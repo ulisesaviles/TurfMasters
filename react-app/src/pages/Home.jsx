@@ -9,6 +9,7 @@ import home from "../images/backgrounds/home.png"
 import home_about from "../images/backgrounds/home_about.jpg"
 
 const Home = () => {
+  window.scrollTo(0, 0)
 
   let lang = window.location.href
   lang = lang.substr(lang.length-2,2)
@@ -16,6 +17,7 @@ const Home = () => {
     lang = "es";
   }
   
+
   return (
     <div className="home-container">
       <div className="home-section1-container">
@@ -58,6 +60,7 @@ const Home = () => {
                     <img src={project["img-url"]} className="home-section4-galery-item-img" alt="hola"/>
                     <div className="home-section4-galery-item-text-container">
                       <h2 className="home-section4-galery-item-title">{project.title[lang]}</h2>
+                    <div className="home-section4-galery-item-separator"/>
                       <p className="home-section4-galery-item-content">{project.content[lang]}</p>
                     </div>
                   </div>

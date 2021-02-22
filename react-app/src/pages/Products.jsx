@@ -5,6 +5,7 @@ import products from "../images/backgrounds/products.jpg"
 import { Slide } from "react-awesome-reveal";
 
 const Products = () => {
+  window.scrollTo(0, 0)
   let lang = window.location.href
   lang = lang.substr(lang.length-2,2)
   if (lang != "es" && lang != "en") {

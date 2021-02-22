@@ -4,6 +4,7 @@ import projects from "../images/backgrounds/projects.jpg";
 import { Slide } from "react-awesome-reveal";
 
 const Projects = () => {
+  window.scrollTo(0, 0)
   let lang = window.location.href
   lang = lang.substr(lang.length-2,2)
   if (lang != "es" && lang != "en") {

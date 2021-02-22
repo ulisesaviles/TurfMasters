@@ -3,9 +3,9 @@ import { Link, useParams } from "react-router-dom";
 import data from "../text.json";
 import products from "../images/backgrounds/products.jpg"
 import { IoChevronBack } from "@react-icons/all-files/io5/IoChevronBack";
-import { Slide } from "react-awesome-reveal";
 
 const Product = () => {
+  window.scrollTo(0, 0)
   let { productName } = useParams();
   const esName = urlToName(productName);
   const product = queryProduct(esName);

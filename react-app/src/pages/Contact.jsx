@@ -9,6 +9,7 @@ import mex from "../images/mex.png";
 import emailjs from 'emailjs-com';
 
 const Contact = () => {
+  window.scrollTo(0, 0)
   const [submited, setSubmited] = useState(false);
   const [name, setName] = useState("");
   const [mail, setMail] = useState("");
@@ -26,10 +27,6 @@ const Contact = () => {
   lang = lang.substr(lang.length-2,2)
   if (lang != "es" && lang != "en") {
     lang = "es";
-  }
-
-  function handleSubmit() {
-    alert("Hola mundo");
   }
 
   function err(inputName) {
@@ -61,7 +58,7 @@ const Contact = () => {
     if (name.length > 3) {
       tempErrors.name = false;
     }
-    if (/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/.test(mail) == true) {
+    if (/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/.test(mail.trim()) == true) {
       tempErrors.mail = false;
     }
     if (subject.length > 3 ) {
@@ -75,7 +72,7 @@ const Contact = () => {
         subject : subject,
         name: name,
         message: content,
-        mail: mail
+        mail: mail.trim()
       }
       emailjs.send('service_8i19ljh', 'template_qoye7oz', mailObj, 'user_TRqMX4CXwKMRkqPGsoHd4')
         .then((result) => {
