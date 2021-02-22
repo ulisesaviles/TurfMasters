@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/TurfMasters/static/css/main.9f71c059.chunk.css",
-    "main.js": "/TurfMasters/static/js/main.cf5a1fb6.chunk.js",
-    "main.js.map": "/TurfMasters/static/js/main.cf5a1fb6.chunk.js.map",
+    "main.js": "/TurfMasters/static/js/main.503ad0a7.chunk.js",
+    "main.js.map": "/TurfMasters/static/js/main.503ad0a7.chunk.js.map",
     "runtime-main.js": "/TurfMasters/static/js/runtime-main.6f0d9a38.js",
     "runtime-main.js.map": "/TurfMasters/static/js/runtime-main.6f0d9a38.js.map",
-    "static/js/2.15cb24c8.chunk.js": "/TurfMasters/static/js/2.15cb24c8.chunk.js",
-    "static/js/2.15cb24c8.chunk.js.map": "/TurfMasters/static/js/2.15cb24c8.chunk.js.map",
+    "static/js/2.68118b62.chunk.js": "/TurfMasters/static/js/2.68118b62.chunk.js",
+    "static/js/2.68118b62.chunk.js.map": "/TurfMasters/static/js/2.68118b62.chunk.js.map",
     "static/js/3.719ffb81.chunk.js": "/TurfMasters/static/js/3.719ffb81.chunk.js",
     "static/js/3.719ffb81.chunk.js.map": "/TurfMasters/static/js/3.719ffb81.chunk.js.map",
     "index.html": "/TurfMasters/index.html",
     "static/css/main.9f71c059.chunk.css.map": "/TurfMasters/static/css/main.9f71c059.chunk.css.map",
-    "static/js/2.15cb24c8.chunk.js.LICENSE.txt": "/TurfMasters/static/js/2.15cb24c8.chunk.js.LICENSE.txt",
+    "static/js/2.68118b62.chunk.js.LICENSE.txt": "/TurfMasters/static/js/2.68118b62.chunk.js.LICENSE.txt",
     "static/media/about.f9dcf514.jpg": "/TurfMasters/static/media/about.f9dcf514.jpg",
     "static/media/contact.44c59e7f.jpg": "/TurfMasters/static/media/contact.44c59e7f.jpg",
     "static/media/fifa.62b2a94a.jpg": "/TurfMasters/static/media/fifa.62b2a94a.jpg",
@@ -25,8 +25,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.6f0d9a38.js",
-    "static/js/2.15cb24c8.chunk.js",
+    "static/js/2.68118b62.chunk.js",
     "static/css/main.9f71c059.chunk.css",
-    "static/js/main.cf5a1fb6.chunk.js"
+    "static/js/main.503ad0a7.chunk.js"
   ]
 }
